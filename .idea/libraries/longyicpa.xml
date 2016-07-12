@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="longyicpa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/integralwall-third-sdk/libs/longyicpa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyle.Task.Quick.Item.Score" parent="AppTextStyle">
+        <item name="android:textColor">@color/red_ff5736</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="TextStyle.Task.Quick.Item.Content" parent="AppTextStyle">
+        <item name="android:textColor">@drawable/selector_quick_task_font_color</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextStyle.Task.Quick.Detail.Item.Score" parent="AppTextStyle">
+        <item name="android:textColor">@drawable/selector_font_task_option_score</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">38px</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextStyle.Task.QuickDetail.Item.Content" parent="AppTextStyle">
+        <item name="android:textColor">@drawable/selector_quick_task_font_color</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextStyle.Task.Item.Title" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/gray_666666</item>
+        <item name="android:textSize">36px</item>
+    </style>
+
+    <style name="TextStyle.Task.Describe" parent="TextStyle.Home.Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/gray_656666</item>
+        <item name="android:textSize">28px</item>
+        <item name="android:paddingLeft">@dimen/px26</item>
+        <item name="android:paddingRight">@dimen/px26</item>
+        <item name="android:paddingTop">@dimen/px24</item>
+        <item name="android:lineSpacingExtra">@dimen/px10</item>
+        <item name="android:background">@drawable/shape_white_normal</item>
+    </style>
+
+    <style name="TextStyle.Task.Option.Title" parent="TextStyle.Home.Item">
+        <item name="android:textSize">@dimen/px28</item>
+        <item name="android:paddingLeft">22px</item>
+        <item name="android:paddingRight">22px</item>
+        <item name="android:paddingTop">20px</item>
+        <item name="android:paddingBottom">20px</item>
+        <item name="android:textColor">@drawable/selector_font_task_option</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="TextStyle.Task.Option.State" parent="TextStyle.Home.Item">
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:paddingLeft">22px</item>
+        <item name="android:paddingRight">22px</item>
+        <item name="android:paddingBottom">20px</item>
+        <item name="android:textColor">@drawable/selector_font_task_option_state</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="TextStyle.Task.Option.Icon" parent="TextStyle.Home.Item">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/selector_task_option</item>
+        <item name="android:layout_marginLeft">26px</item>
+    </style>
+
+</resources>

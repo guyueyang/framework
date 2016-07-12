@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/app_common_padding_edge"
+    android:paddingRight="@dimen/app_common_padding_edge"
+    android:paddingTop="@dimen/px22"
+    android:paddingBottom="@dimen/px20"
+    android:background="@drawable/selector_common_item"
+    android:orientation="vertical">
+
+    <com.andcup.android.integralwall.commons.widget.URIRoundedImageView
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:src="@drawable/ic_default_task"
+        android:layout_alignParentLeft="true"
+        app:riv_corner_radius="5dp"
+        android:id="@+id/riv_avatar"
+        android:layout_alignParentTop="true"
+        />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/riv_avatar"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/px30"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@+id/tv_score"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextStyle.Home.Item.Title"
+            android:id="@+id/tv_title"
+            android:text="任务名"
+            />
+
+        <TextView
+            style="@style/TextStyle.Task.Quick.Item.Content"
+            android:text="内容简介"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="18px"
+            android:id="@+id/tv_content"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <TextView
+        style="@style/TextStyle.Task.Quick.Item.Score"
+        android:text="30积分"
+        android:id="@+id/tv_score"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

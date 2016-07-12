@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/srv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_empty="@layout/list_item_empty"
+        app:layout_progress="@layout/list_loading"
+        app:layout_moreProgress="@layout/list_load_more"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        />
+
+
+</com.andcup.widget.AutoLinearLayout>

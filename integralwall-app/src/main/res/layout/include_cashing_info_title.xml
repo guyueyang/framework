@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="8px"
+        android:layout_height="match_parent"
+        android:background="@color/red_f46449"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exchange_title"
+        android:orientation="vertical"
+        android:textSize="30px"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="16px"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

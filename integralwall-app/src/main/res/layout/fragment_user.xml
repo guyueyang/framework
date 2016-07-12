@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_color"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_title"
+        android:text="@string/user_info"
+        android:visibility="gone" />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:id="@+id/rl_head_portrait"
+        android:background="@drawable/selector_common_item">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head_portrait"
+            android:textSize="@dimen/px30"
+            android:layout_marginLeft="@dimen/px20"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black_666"
+            />
+
+        <com.andcup.android.integralwall.commons.widget.URIRoundedImageView
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/ic_mine_portrait"
+            android:id="@+id/riv_avatar"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px100"
+            app:riv_corner_radius="5dp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px20"/>
+
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:layout_marginTop="@dimen/px28"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_mine.edit"
+            android:layout_width="wrap_content"
+            android:drawableLeft="@drawable/ic_mine_user_nickname"
+            android:text="昵称:" />
+
+        <EditText
+            android:id="@+id/et_nick_name"
+            style="@style/style_mine.nickname"
+            android:layout_gravity="center_horizontal"
+            android:maxLength="16"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/px20"
+            android:gravity="left"
+            android:singleLine="true"
+        />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:orientation="horizontal"
+        android:id="@+id/ll_sex">
+
+    <TextView
+        style="@style/style_mine.edit"
+        android:drawableLeft="@drawable/ic_mine_user_sex"
+        android:text="@string/sex" />
+        <TextView
+            android:id="@+id/tv_sex"
+            style="@style/style_mine.nickname"
+            android:layout_gravity="center_horizontal" />
+</com.andcup.widget.AutoLinearLayout>
+
+    <include layout="@layout/include_divider" />
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:orientation="horizontal"
+        android:id="@+id/ll_birthday">
+
+        <TextView
+            style="@style/style_mine.edit"
+            android:drawableLeft="@drawable/ic_mine_user_birthday"
+            android:text="@string/birthday" />
+        <TextView
+            android:id="@+id/tv_birthday"
+            style="@style/style_mine.nickname"
+            android:layout_gravity="center_horizontal" />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:orientation="horizontal"
+        android:id="@+id/ll_phone">
+
+        <TextView
+            style="@style/style_mine.edit"
+            android:drawableLeft="@drawable/ic_mine_user_phone"
+            android:text="@string/phone_number" />
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/style_mine.nickname"
+            android:layout_gravity="center_horizontal" />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:orientation="horizontal"
+        android:id="@+id/ll_password">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_password"
+            style="@style/style_mine.edit"
+            android:drawableLeft="@drawable/ic_mine_user_password"
+            android:text="@string/edit_password" />
+
+    </com.andcup.widget.AutoLinearLayout>
+
+    <include layout="@layout/include_divider" />
+
+</com.andcup.widget.AutoLinearLayout>

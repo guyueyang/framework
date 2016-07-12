@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px115"
+        android:background="@color/white_fff7f7"
+        android:gravity="center_vertical"
+        android:padding="26px"
+        android:textSize="@dimen/px30"
+        android:text="@string/rank_mine"
+        android:id="@+id/tv_score"
+        />
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rv_rank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_empty="@layout/list_item_empty"
+        app:layout_moreProgress="@layout/list_item_more"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:layout_progress="@layout/list_loading"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

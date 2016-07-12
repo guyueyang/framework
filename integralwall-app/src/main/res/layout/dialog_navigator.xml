@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fr_container"
+        android:layout_above="@+id/ll_footer"
+        />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_footer">
+        <Button
+            style="@style/AppThemeDialog.Text"
+            android:id="@+id/btn_cancel"
+            android:text="@string/cancel"
+            android:textColor="@color/gray_8a"
+            android:textSize="@dimen/px28"
+            android:background="@drawable/selector_common_item"
+            />
+
+        <Button
+            style="@style/AppThemeDialog.Text"
+            android:id="@+id/btn_ok"
+            android:text="@string/ok"
+            android:textColor="@color/app_theme_common_color"
+            android:background="@drawable/selector_common_item"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoLinearLayout>

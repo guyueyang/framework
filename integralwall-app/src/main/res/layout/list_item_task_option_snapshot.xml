@@ -1,0 +1,75 @@
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20px"
+        android:paddingTop="20px">
+
+        <TextView
+            android:id="@+id/tv_number"
+            style="@style/TextStyle.Task.Option.Icon"
+            android:gravity="center"
+            android:text="1" />
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ll_score"
+            android:layout_toRightOf="@+id/tv_number"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TextStyle.Task.Option.Title" />
+
+            <TextView
+                android:id="@+id/tv_state"
+                style="@style/TextStyle.Task.Option.State"
+                android:visibility="gone" />
+
+        </com.andcup.widget.AutoLinearLayout>
+
+        <com.andcup.widget.AutoRelativeLayout
+            android:id="@+id/ll_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px26">
+
+            <TextView
+                android:id="@+id/tv_score"
+                style="@style/TextStyle.Task.Quick.Detail.Item.Score"
+                android:text="30积分" />
+
+            <ImageView
+                android:id="@+id/iv_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/selector_task_item_state"
+                />
+        </com.andcup.widget.AutoRelativeLayout>
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="490px"
+        android:layout_height="79px"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_option_snapshot"
+        android:text="@string/commit_snapshot"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px28"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20px"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

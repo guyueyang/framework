@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+apply from: rootProject.file('buildsystem/andcup-android.gradle')
+
+android {
+    defaultConfig {
+        applicationId "com.yl.android.cpa"
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    //  ref andcup frame
+    def andcup = rootProject.ext.andcup
+    compile andcup.framework
+    compile andcup.viewpagerIndicator
+    compile andcup.imageCrop
+
+    //  ref libs
+    def libs = rootProject.ext.libs
+    compile libs.circleImageView
+    compile libs.superRecycleView
+    compile libs.processButton
+    compile libs.systemBar
+    compile libs.photoView
+
+    //android
+    def android = rootProject.ext.android
+    compile android.supportAppCompat
+    compile android.supportDesign
+
+    compile project(':integralwall-data-layer')
+    compile project(':integralwall-commons')
+    compile project(':integralwall-third-sdk')
+    compile project(':integralwall-sdk-push')
+
+}
+
+apply from: rootProject.file('buildsystem/andcup-checkstyle.gradle')

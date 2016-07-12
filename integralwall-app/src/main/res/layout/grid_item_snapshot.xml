@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/px25">
+    
+    <com.andcup.android.app.integralwall.view.task.snapshot.SnapshotImageView
+        android:layout_width="@dimen/px125"
+        android:layout_height="@dimen/px125"
+        android:id="@+id/iv_snapshot"
+        app:riv_corner_radius="5dp"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

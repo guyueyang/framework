@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_welcome">欢迎您</string>
+    <string name="copy">复制</string>
+    <string name="ok">确定</string>
+    <string name="bind_account">绑定账号</string>
+    <string name="bind_ok">绑定成功</string>
+    <string name="find_password">忘记密码</string>
+    <string name="set_password">设置密码</string>
+
+    <string name="exit_sure">确定退出登录吗?</string>
+    <string name="exit_double_back">再按一次退出程序</string>
+
+    <string name="retry">重试</string>
+
+    <string name="login_visitor">游客</string>
+    <string name="login_visitor_mode">游客模式</string>
+    <string name="login_register_or_login">注册/登录</string>
+    <string name="login_register">注册</string>
+    <string name="login_register_in">注册中...</string>
+    <string name="login">登录</string>
+    <string name="login_in">登录中...</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_phone">手机号</string>
+
+    <string name="change_password_success">修改成功</string>
+    <string name="change_in">修改中...</string>
+
+    <string name="login_with_me">账号登录/注册</string>
+    <string name="friendly">朋友圈</string>
+    <string name="wechat">微信</string>
+    <string name="twitter">微博</string>
+    <string name="taobao">淘宝</string>
+    <string name="qzone">QQ空间</string>
+
+    <string name="login_hint_username">手机号码</string>
+    <string name="login_hint_password_again">再次确认</string>
+    <string name="login_hint_invite_code">邀请码(可选)</string>
+
+    <string name="login_free_register">免费注册</string>
+
+    <string name="login_hint_verification">获取/重发(120)</string>
+    <string name="login_try_send_verify">重新发送</string>
+
+    <string name="login_error_phone">请输入手机号码</string>
+    <string name="login_error_phone_format">手机号码不正确</string>
+    <string name="error_address">收货地址不够详尽</string>
+    <string name="error_name">请输入名字</string>
+
+    <string name="error_password">新密码为空</string>
+    <string name="error_confirm_password">确认密码为空</string>
+    <string name="error_not_same_password">两次密码不一致</string>
+    <string name="error_old_password">旧密码为空</string>
+    <string name="error_old_name">旧密码</string>
+    <string name="error_Length_limit_small">密码长度小于6位</string>
+    <string name="error_length_limit_big">密码长度过长</string>
+
+    <string name="login_bind_phone">绑定账号</string>
+    <string name="login_find_password">提交修改</string>
+    <string name="login_find_password_in">修改中...</string>
+
+    <string name="exit_offline">您的账号已在其它设备登录,如果不是本人进行操作,请重新登录并修改密码。</string>
+    <string name="protocol_address">"/api/article/user_agreement"</string>
+    <string name="login_bind_account_ok">请设置您的密码</string>
+    <string name="login_register_ok">注册成功</string>
+    <string name="weixin_no">你还没有安装微信</string>
+    <string name="weixin_package">com.tencent.mm</string>
+    
+    <string name="new_user">新用户</string>
+    <string name="old_user">老用户</string>
+
+</resources>

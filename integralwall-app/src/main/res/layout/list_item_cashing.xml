@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_cash_item"
+        android:gravity="center"
+        android:paddingBottom="20px"
+        android:paddingLeft="65px"
+        android:paddingRight="65px"
+        android:paddingTop="20px"
+        android:singleLine="true"
+        android:text="20元"
+        android:textColor="@drawable/selector_font_cash_item"
+        android:textSize="@dimen/px26" />
+</com.andcup.widget.AutoRelativeLayout>

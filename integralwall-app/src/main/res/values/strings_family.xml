@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="member">成员</string>
+    <string name="rewards">奖励</string>
+    <string name="raiders">攻略</string>
+    <string name="search">搜 索</string>
+
+    <string name="family_title_1">一级成员</string>
+    <string name="family_title_2">二级成员</string>
+    <string name="family_member">成员 : %s 人</string>
+    <string name="family_total_in">收入 : %s 积分</string>
+
+    <string name="family_level_1_title">一级成员\n奖励( 20% )</string>
+    <string name="family_level_score">%1$s人\n%2$s积分</string>
+
+    <string name="family_level_2_title">二级成员\n奖励( 10% )</string>
+
+    <string name="family_invite">邀请好友成为家族成员</string>
+    <string name="family_dynamic">您很久没招募家族成员了,\n 赶紧招收家族成员坐享抽成吧！</string>
+
+    <string name="join_days">加入天数</string>
+    <string name="complete_tasks">完成任务</string>
+    <string name="offer_score">贡献积分</string>
+
+    <string name="format_join_days"> %s 天</string>
+    <string name="format_complete_tasks"> %s 个</string>
+    <string name="format_offer_score"> %s 积分</string>
+    <string name="copy_success">复制成功</string>
+
+    <string name="raiders_new_user">新手篇</string>
+    <string name="raiders_super_user">高手篇</string>
+
+</resources>

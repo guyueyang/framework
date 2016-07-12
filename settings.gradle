@@ -1,0 +1,1 @@
+include ':integralwall-app', ':integralwall-data-layer', ':integralwall-third-sdk', ':integralwall-commons', ':integralwall-analytics-umeng', ':integralwall-sdk-push'

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_content_color">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/include_title_with_back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_title_bar"
+        android:text="@string/level_that"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/px28"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/include_title_bar"
+        android:paddingRight="@dimen/px30"
+        android:id="@+id/tv_level_that"
+        />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_below="@+id/include_title_bar">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.andcup.android.integralwall.commons.widget.URIRoundedImageView
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/ic_mine_portrait"
+            android:id="@+id/riv_avatar"
+            android:layout_marginLeft="@dimen/px60"
+            android:layout_marginTop="@dimen/px22"
+            android:layout_marginBottom="@dimen/px22"
+            android:layout_marginRight="@dimen/px50"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/px50">
+                <TextView
+                    android:id="@+id/tv_nick_name"
+                    android:textSize="@dimen/px30"
+                    android:textColor="@color/black_4c4b4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/sdv_vip"
+                    android:background="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px20"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/vip_level_image"
+                    />
+            </com.andcup.widget.AutoLinearLayout>
+
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/px10">
+                <TextView
+                    android:textSize="@dimen/px30"
+                    android:textColor="@color/black_4c4b4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incoming"
+                    />
+                <TextView
+                    android:id="@+id/tv_incoming"
+                    android:textSize="@dimen/px30"
+                    android:textColor="@color/black_4c4b4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.andcup.widget.AutoLinearLayout>
+
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/px10"
+                android:layout_marginBottom="@dimen/px50">
+                <TextView
+                    android:textSize="@dimen/px30"
+                    android:textColor="@color/black_4c4b4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_id"
+                    />
+                <TextView
+                    android:id="@+id/tv_user_id"
+                    android:textSize="@dimen/px30"
+                    android:textColor="@color/black_4c4b4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.andcup.widget.AutoLinearLayout>
+        </com.andcup.widget.AutoLinearLayout>
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View style="@style/style_divider.h">
+
+    </View>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/px60"
+        android:paddingLeft="@dimen/px60"
+        android:layout_marginTop="@dimen/px10"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView style="@style/style_item_title"
+            android:text="@string/member_vip_level"
+            />
+
+
+
+        <com.andcup.widget.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px10"
+            android:orientation="vertical"
+            android:padding="@dimen/px10">
+
+            <TextView
+                android:id="@+id/tv_pre_level"
+                style="@style/style_mine.member.vip.level"
+                android:text="@string/member_prev_level" />
+
+            <TextView
+                android:id="@+id/tv_level"
+                style="@style/style_mine.member.vip.level"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/tv_pre_level"
+                android:layout_toLeftOf="@+id/tv_next_level"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_next_level"
+                style="@style/style_mine.member.vip.level"
+                android:layout_alignParentRight="true"
+                android:text="@string/member_next_level" />
+
+            <ProgressBar
+                android:id="@+id/pb_level"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/tv_pre_level"
+                android:progressDrawable="@drawable/layer_vip" />
+        </com.andcup.widget.AutoRelativeLayout>
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View style="@style/style_divider.h">
+
+    </View>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/px60"
+        android:paddingLeft="@dimen/px60"
+        android:layout_marginTop="@dimen/px10"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/member_vip_history" />
+        <View style="@style/style_divider.h">
+        </View>
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/style_mine.exp"
+                android:text="@string/vip_time"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_from"
+                style="@style/style_mine.exp"
+                android:text="@string/vip_task"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_value"
+                style="@style/style_mine.exp"
+                android:text="@string/vip_value"
+                android:layout_weight="1" />
+        </com.andcup.widget.AutoLinearLayout>
+        <com.malinskiy.superrecyclerview.SuperRecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/srv_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_empty="@layout/list_item_empty"
+            app:layout_moreProgress="@layout/list_load_more"
+            app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+            app:layout_progress="@layout/list_loading"
+            />
+
+
+    </com.andcup.widget.AutoLinearLayout>
+
+
+    <View style="@style/style_divider.h">
+
+    </View>
+
+</com.andcup.widget.AutoLinearLayout>
+</com.andcup.widget.AutoRelativeLayout>

@@ -1,0 +1,45 @@
+{
+  "qumi":     {
+    "appId": "0a7752390554572d",
+    "appKey": "7825448777a03355"
+  },
+
+  "umeng":{
+    "appId": "385938842f90e9ce",
+    "appKey": "563b13a8e0f55a40d000071b"
+  },
+
+  "wechat":     {
+    "appId": "wx245aa86b9e067585",
+    "appKey": "c07c64b8c0dc333a4c447ba837d7a9c3"
+  },
+  "QQ": {
+    "appId": "1104764031",
+    "appKey": "TKcvkIOieKFyD39s"
+  },
+
+  "weibo":     {
+    "appId": "379209860",
+    "appKey": "832d6287e00fa2036e68781290a28bbc"
+  },
+  "beiduo":{
+    "appId":"14373",
+    "appKey":"153982018fe1114"
+  },
+  "dianle":{
+    "appId":"",
+    "appKey":"72c43d7a37314adf49d07d206f00af93"
+  },
+  "domob":{
+    "appId":"",
+    "appKey":"96ZJ3zIAzfpT7wTP1J"
+  },
+  "dianru":{
+    "appId":"9349",
+    "appKey":"000085432400007F"
+  },
+  "update":{
+    "appId":"1",
+    "appKey":"b16130797f4bc95c5b0da1e631ced0d7"
+  }
+}

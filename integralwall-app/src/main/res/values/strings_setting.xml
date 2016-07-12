@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_notify" >消息提醒</string>
+    <string name="picture_setting">仅Wifi下显示应用截图</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="frequently_asked_questions">常见问题</string>
+    <string name="check_update">检查更新</string>
+    <string name="about_me">关于</string>
+    <string name="login_out">退出登录</string>
+    <string name="login_out_ok">确定</string>
+    <string name="login_out_cancel">取消</string>
+    <string name="login_out_force">直接退出</string>
+    <string name="login_out_bind_account">绑定</string>
+    <string name="commit">提交</string>
+    <string name="commit_in">正在提交...</string>
+    <string name="commit_success">提交成功</string>
+    <string name="commit_failed">提交失败</string>
+    <string name="edit">修改</string>
+    <string name="check_update_now">正在检查更新..</string>
+    <string name="is_sure_login_out">确定退出登录吗?</string>
+
+    <string name="download_install">打开任务赚积分</string>
+    <string name="downloading">正在下载 %1$s </string>
+    <string name="download_progress">下载%1$s</string>
+    <string name="start_update">开始安装</string>
+    <string name="about_more">龙易赚</string>
+    <string name="bind_account_success">绑定成功</string>
+    <string name="send_sms_success">发送成功</string>
+    <string name="download_continue">继续下载</string>
+    
+    <string name="about_introduce">龙易赚依托项目丰富资源，为用户提供更丰富和更具竞争力的互联网应用服务。</string>
+    <string name="about_introduction">同时龙跃公司致力于搭建互联网游戏、应用等厂商与互联网终端用户之间沟通交流的桥梁，为广大用户提供实用及便利的服务，并打造公正、健康、赋有活力与影响力的品牌文化。</string>
+    <string name="about_website">官网：http://www.lyzip.com</string>
+    <string name="about_wechat">微信公众号：龙易赚</string>
+    <string name="about_weibo">新浪微博：龙跃网络科技</string>
+
+    <string name="version">版本: %s </string>
+    <string name="notify" >提示</string>
+
+</resources>

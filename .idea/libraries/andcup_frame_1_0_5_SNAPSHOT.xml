@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="andcup-frame-1.0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/integralwall-app/build/intermediates/exploded-aar/com.andcup.android.frame/andcup-frame/1.0.5-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/integralwall-app/build/intermediates/exploded-aar/com.andcup.android.frame/andcup-frame/1.0.5-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

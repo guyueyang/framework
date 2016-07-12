@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView style="@style/style_title"
+        android:text="@string/feedback"
+        android:visibility="gone"
+        />
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_content"
+        android:gravity="left|top"
+        android:padding="10dp"
+        style="@style/style_input_no_focus"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:minHeight="150dp"
+        android:hint="@string/tip_feed_back"
+        android:textSize="@dimen/px30"
+        android:maxLength="200"
+        />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        style="@style/style_user_login.me"
+        android:id="@+id/btn_commit"
+        android:text="@string/commit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="@dimen/px30"
+        android:layout_centerHorizontal="false"
+        custom:pb_textProgress="@string/commit_in"
+        custom:pb_colorNormal="@color/red_ff6836"
+        custom:pb_colorPressed="@color/red_e65220"
+        custom:pb_colorError="@color/red_ea"
+        />
+
+
+</com.andcup.widget.AutoLinearLayout>

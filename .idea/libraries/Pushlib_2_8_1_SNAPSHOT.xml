@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Pushlib-2.8.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/integralwall-app/build/intermediates/exploded-aar/com.umeng.sdk.push/Pushlib/2.8.1-SNAPSHOT/jars/libs/com.umeng.message_v2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/integralwall-app/build/intermediates/exploded-aar/com.umeng.sdk.push/Pushlib/2.8.1-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/integralwall-app/build/intermediates/exploded-aar/com.umeng.sdk.push/Pushlib/2.8.1-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

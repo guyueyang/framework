@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-app-integralwall.iml" filepath="$PROJECT_DIR$/android-app-integralwall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-analytics-umeng/integralwall-analytics-umeng.iml" filepath="$PROJECT_DIR$/integralwall-analytics-umeng/integralwall-analytics-umeng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-app/integralwall-app.iml" filepath="$PROJECT_DIR$/integralwall-app/integralwall-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-commons/integralwall-commons.iml" filepath="$PROJECT_DIR$/integralwall-commons/integralwall-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-data-layer/integralwall-data-layer.iml" filepath="$PROJECT_DIR$/integralwall-data-layer/integralwall-data-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-sdk-push/integralwall-sdk-push.iml" filepath="$PROJECT_DIR$/integralwall-sdk-push/integralwall-sdk-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integralwall-third-sdk/integralwall-third-sdk.iml" filepath="$PROJECT_DIR$/integralwall-third-sdk/integralwall-third-sdk.iml" />
+    </modules>
+  </component>
+</project>

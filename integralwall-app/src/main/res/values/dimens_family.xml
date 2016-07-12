@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_family_90px">90px</dimen>
+    <dimen name="height_family_top">120px</dimen>
+    <dimen name="height_family_member">120px</dimen>
+    <dimen name="height_family_invite">90px</dimen>
+
+    <dimen name="family_margin_75px">75px</dimen>
+</resources>

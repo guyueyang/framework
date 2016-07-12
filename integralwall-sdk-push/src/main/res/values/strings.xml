@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">integralwall-sdk-push</string>
+
+    <string name="push_action">com.andcup.action.push</string>
+    <string name="push_scheme">content</string>
+    <string name="push_url">www.andcup.com</string>
+    <string name="push_mimeType">text/application</string>
+</resources>

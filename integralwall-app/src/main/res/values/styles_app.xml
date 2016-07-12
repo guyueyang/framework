@@ -1,0 +1,92 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/bg_start</item>
+    </style>
+
+    <style name="AppThemeCommonDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="AppThemeCommonDialog.Tran" parent="AppThemeCommonDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="ActivityDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="AppThemeLoading" parent="AppThemeCommonDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="AppTextStyle">
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:textColor">@color/app_text_color</item>
+    </style>
+
+    <style name="AppDivider">
+        <item name="android:background">@color/white_dfdfdf</item>
+    </style>
+
+    <style name="AppDivider.H" parent="AppDivider">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="AppDivider.V" parent="AppDivider">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.8dp</item>
+    </style>
+
+    <style name="style_action_bar_title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/app_common_action_bar_title_size</item>
+    </style>
+
+    <style name="AppThemeDialog.Text" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">30px</item>
+        <item name="android:paddingTop">30px</item>
+        <item name="android:textSize">@dimen/px30</item>
+    </style>
+
+    <style name="AppTextStyleDynamic">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_ababab</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+    </style>
+
+    <style name="AppTextStyleNetwork">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/lavenderblush</item>
+        <item name="android:padding">20px</item>
+        <item name="android:textSize">@dimen/px26</item>
+        <item name="android:maxHeight">@dimen/px80</item>
+    </style>
+</resources>

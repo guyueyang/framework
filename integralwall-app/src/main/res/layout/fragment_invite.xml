@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/px80"
+    android:orientation="vertical"
+    android:background="@drawable/shape_invite">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:hint="@string/invite_code_200"
+        android:layout_marginLeft="@dimen/px40"
+        android:layout_marginRight="@dimen/px40"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/px40"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px30"
+        android:paddingRight="@dimen/px30"
+        android:singleLine="true"
+        android:textSize="@dimen/px28"
+        android:id="@+id/et_invite_code"
+        />
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white_30p"/>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_invite_item_left"
+            android:text="@string/cancel"
+            android:textSize="@dimen/px28"
+            android:textColor="@color/gray_333333"
+            android:gravity="center"
+            android:id="@+id/tv_cancel"
+            />
+
+        <View android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/white_30p"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_invite_item_right"
+            android:text="@string/commit"
+            android:textSize="@dimen/px28"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/tv_ok"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoLinearLayout>

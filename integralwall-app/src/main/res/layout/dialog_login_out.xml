@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--<TextView style="@style/style_dialog.title"-->
+              <!--android:text="@string/login_out"-->
+              <!--android:drawableLeft="@drawable/ic_exit"-->
+            <!--/>-->
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/shape_dialog_bottom"
+                  android:orientation="vertical"
+            >
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/h4"
+                  android:textColor="@color/app_text_content_color"
+                  android:padding="15dp"
+                  android:gravity="center"
+                  android:text="@string/exit_sure"
+                  android:layout_marginTop="20dp"
+                />
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_gravity="center_horizontal"
+                      android:gravity="center"
+                      android:paddingTop="15dp"
+                      android:paddingBottom="10dp"
+                >
+
+            <Button style="@style/style_user_login.me"
+                    android:id="@+id/btn_cancel"
+                    android:text="@string/login_out_cancel"
+                    android:layout_width="90dp"
+                    />
+
+            <Button style="@style/style_user_login.register"
+                    android:id="@+id/btn_exit"
+                    android:text="@string/login_out_ok"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="50dp"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

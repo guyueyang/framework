@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_invite_code"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invite_friends_score"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/px40"
+        android:textColor="@color/white"
+        android:layout_above="@+id/tv_score"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/px30"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100积分"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/px20"
+        android:textColor="@color/yellow_ffb727_30p"
+        android:layout_above="@+id/ed_write_invite_code"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_score"
+        android:textSize="@dimen/px80"/>
+
+    <TextView
+        android:id="@+id/ed_write_invite_code"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px20"
+        android:layout_marginTop="@dimen/px15"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_submit"
+        android:layout_marginBottom="@dimen/px30"
+        android:text="@string/invite_friends_score_info"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="@dimen/px10"
+        />
+    <TextView
+        android:id="@+id/btn_submit"
+        style="@style/style_user_login.light"
+        android:layout_width="400px"
+        android:textSize="@dimen/px30"
+        android:layout_marginBottom="@dimen/px290"
+        android:text="@string/invite_friends"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/app_theme_common_color"
+        android:layout_height="@dimen/px80"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_invite_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/px102"
+        android:textSize="@dimen/px28"
+        android:textColor="@color/white"
+        android:text="@string/invite_code_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px30"
+        android:paddingLeft="@dimen/px70"
+        android:paddingRight="@dimen/px70"
+        android:lineSpacingExtra="@dimen/px10"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

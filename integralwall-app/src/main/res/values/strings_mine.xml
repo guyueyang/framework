@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="score_exchange_detail">积分明细</string>
+    <string name="score_exchange">积分兑换</string>
+    <string name="score_setting">设置</string>
+    <string name="score_call_service">联系客服</string>
+    <string name="exchange">兑换</string>
+    <string name="fare">充值</string>
+    <string name="check_cashing">提现</string>
+    <string name="input_invite_code">填写邀请码</string>
+    <string name="mi_invite_code">我的邀请码</string>
+    <string name="input_has_invite_code">您已填过邀请码</string>
+    <string name="hint_invite_code">请填写邀请码</string>
+    <string name="limits_number">0123456789</string>
+    <string name="invite_code_error">邀请码不能写自己的噢!</string>
+    <string name="invite_code">邀请码</string>
+    <string name="invite_code_null">邀请码为空</string>
+    <string name="invite">邀请好友</string>
+    <string name="invite_code_200">邀请码(填写得200积分)</string>
+
+    <string name="score_used">积分</string>
+    <string name="score_not_enough">积分不足</string>
+    <string name="exchange_detail">兑换详情</string>
+    <string name="exchange_time">兑换时间</string>
+    <string name="exchange_status">兑换状态</string>
+    <string name="invite_friends_score">填写好友赢积分</string>
+    <string name="invite_friends_score_info">给好友派发200积分红包，好友领取后,\n您也将获得100积分红包奖励</string>
+
+    <array name="score_in_out">
+        <item>@string/score_used</item>
+        <item>@string/exchange_detail</item>
+        <item>@string/exchange_time</item>
+        <item>@string/exchange_status</item>
+    </array>
+
+    <string name="format_invite_code">邀请码 : %s </string>
+    <string name="my_score">积分收入</string>
+    <string name="get_score">去赚钱</string>
+
+    <string name="format_my_score">%s积分</string>
+    <string name="format_money">人民币%s元</string>
+
+    <string name="mi_task">我的任务</string>
+    <string name="score_in_detail">收支明细</string>
+    <string name="score_in_details">收入明细</string>
+    <string name="score_out_detail">支出明细</string>
+    <string name="red_packets_detail">红包明细</string>
+    <string name="date_pick">选择日期</string>
+    <string name="format_score_date">收入 <Data><![CDATA[<font color ="#ee2828">%1$s</font>]]></Data> 积分</string>
+
+    <string name="yl_points">游龙点数</string>
+    <string name="qb_exchange">Q币兑换</string>
+    <string name="telephone_fare">话费充值</string>
+    <string name="exchange_money">支付宝提现</string>
+    <string name="exchange_money_bank">银行卡提现</string>
+
+    <string name="qb_info">积分换Q币，新手专享！</string>
+    <string name="telephone_fare_info">兑换三网话费，畅聊不停</string>
+    <string name="exchange_money_info">利用碎片时间, 轻松赚钱</string>
+    <string name="hint_phone_number">请输入要充值的手机号码</string>
+    <string name="error_phone_number">请输入正确的手机号码</string>
+    <string name="exchange_money_bank_info">大额提现,轻松解决</string>
+
+    <string name="fare_30">充值30元（需要3000积分）</string>
+    <string name="fare_50">充值50元（需要5000积分）</string>
+    <string name="fare_100">充值100元（需要10000积分）</string>
+
+    <string name="exchange_title">换购说明</string>
+    <string name="phone_fare_title">充值号码</string>
+    <string name="phone_fare_value">充值金额</string>
+
+    <string name="fare_success">充值成功</string>
+    <string name="fare_failed">充值失败</string>
+    <string name="fare_progress">正在充值...</string>
+    <string name="fare_option">请选择充值面额</string>
+    <string name="cash_option">请选择提现面额</string>
+    <string name="cash_success">提现成功</string>
+
+    <string name="check_cashing_value">提现金额</string>
+    <string name="cashing_alipay">支付宝账号:</string>
+    <string name="cashing_phone_number">手  机  号:</string>
+    <string name="cashing_name">姓   名:</string>
+    <string name="error_input_name">请输入姓名</string>
+    <string name="error_input_bank_name">请输入开户行</string>
+    <string name="alipay_account">支付宝账号</string>
+
+    <string name="msg_input_alipay">请输入支付宝账号</string>
+    <string name="msg_input_alipay_error">支付宝账号格式不正确</string>
+    <string name="msg_input_wechat">请输入微信号</string>
+    <string name="msg_input_bank_account">请输入银行卡号</string>
+    <string name="msg_input_bank_account_error">银行卡号输入不正确</string>
+
+    <string name="bank_account">银行账号</string>
+    <string name="real_name">真实姓名:</string>
+    <string name="bank_name">开户行:</string>
+    <string name="bank_number">银行卡号:</string>
+
+    <string name="rmb">元</string>
+
+    <string name="user_info">个人资料</string>
+
+    <string name="sex">性别:</string>
+    <string name="secret">保密</string>
+    <string name="birthday">生日:</string>
+    <string name="phone_number">电话:</string>
+    <string name="edit_password">修改密码</string>
+
+    <string name="head_portrait">头像</string>
+    <string name="edit_avatar">头像修改</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_avatar">从相册选择</string>
+
+    <string name="cancel">取消</string>
+    <string name="committing">正在上传</string>
+    <string name="edit_success">修改成功</string>
+
+    <string name="sec_pick">选择性别</string>
+    <string name="sex_male">女</string>
+    <string name="sex_female">男</string>
+
+    <array name="array_sex">
+        <item>@string/sex_female</item>
+        <item>@string/secret</item>
+        <item>@string/sex_male</item>
+    </array>
+
+    <string name="edit_name">姓名:</string>
+    <string name="edit_phoneNumber">手机号:</string>
+    <string name="edit_detail_address">详细地址:</string>
+    <string name="edit_mark">备注信息:</string>
+
+    <string name="edit_old_password">旧密码:</string>
+    <string name="edit_new_password">新密码:</string>
+    <string name="edit_new_second_password">密码确认:</string>
+
+    <string name="share_my_friends">分享给您的好友</string>
+    <string name="share_title">温馨提示</string>
+
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_content">
+        您的朋友通过您发送的邀请链接，可下载安装并成为注册用户。同时在激活使用后，选择填入您的邀请码并自动成为您的家族成员，当您的朋友完成任务时，您将立即获得10%的活动积分。
+    </string>
+
+    <string name="mine_share_link">我的邀请链接</string>
+    <string name="copy_my_share_link">复制</string>
+
+    <string name="tip_feed_back">请留下您的宝贵意见!</string>
+
+    <string name="check_cashing_information"> 1、提现最低额度为2000积分\n2、兑换成功后将在3个工作日内到账，偶尔遇到充值高峰或节假日会有一定延迟，请耐心等待。\n3、如提现后超过5个工作日未到账，请加客服QQ2749792995\n</string>
+    <string name="check_cashing_bank_information"> 1、提现最低额度为10000积分\n2、兑换成功后将在3个工作日内到账，偶尔遇到充值高峰或节假日会有一定延迟，请耐心等待。\n3、如提现后超过5个工作日未到账，请加客服QQ2749792995\n</string>
+
+    <string name="phone_fare_information">1、兑换成功后将在3个工作日内到账，偶尔遇到充值高峰或节假日会有一定延迟，请耐心等待。\n2、如提现后超过5个工作日未到账，请加客服QQ2749792995。
+    </string>
+
+    <string name="qb_exchange_info">你即将使用100积分兑换<Data><![CDATA[<font color ="#12b7da">1Q币</font>]]></Data>，兑换成功后Q币将会在<Data><![CDATA[<font color ="#ea5217">1个工作日内</font>]]></Data>到账，请输入<Data><![CDATA[<font color ="#ea5217">QQ号信息</font>]]></Data></string>
+    <string name="hint_qq_number">请输入QQ号</string>
+    <string name="qb_exchange_failed">兑换<Data><![CDATA[<font color ="#ea5217">失败</font>]]></Data>，您还未完成<Data><![CDATA[<font color ="#12b7da">新手任务</font>]]></Data>哦！</string>
+
+    <string name="phone_number_none">未绑定电话号码</string>
+
+    <string name="member_vip_level">我的VIP成长值</string>
+    <string name="member_vip">VIP</string>
+    <string name="member_prev_level">非会员</string>
+    <string name="member_next_level">VIP1</string>
+    <string name="member_vip_history">我的成长记录</string>
+
+    <string name="incoming">加入时间:</string>
+    <string name="user_id">会   员  ID:</string>
+    <string name="msg_readed">已读消息</string>
+    <string name="msg_un_readed">未读消息</string>
+    <string name="msg_detail">消息详情</string>
+
+    <string name="invite_code_content">活动规则:\n邀请好友注册成功，完成新手奖励后您可立即获得100积分！同时，可获得好友任务的20%奖励，具体详情请查看</string>
+    <string name="invite_code_reward_rules">奖励规则！</string>
+    <string name="submit">提交</string>
+    <string name="invite_code_write_reward">活动规则:\n填写好友给您发送的邀请码，您可获得200积分奖励哦！</string>
+    <string name="invite_copy">复制成功</string>
+    <string name="invite_code_uid">邀请码：%s</string>
+    <string name="invite_code_download">下载地址：http://www.lyzip.com</string>
+    <string name="invite_friends">邀请好友,一起赚钱</string>
+
+    <string name="reward_rules">奖励规则</string>
+    <string name="reward_rules_content_first">1.一级成员首次注册您可以获得100积分奖励；</string>
+    <string name="reward_rules_content_second">2.您将获得一级成员任务收入的20%；</string>
+    <string name="reward_rules_content_third">3.您将获得二级成员任务收入的10%</string>
+
+    <string name="limits_char_number_chinese">昵称格式错误（不支持特殊字符）</string>
+    <string name="limits_nickname_length">昵称过长请修改</string>
+    <string name="error_nickname">昵称为空</string>
+    <string name="limits_char_numbers">密码格式错误（只能输入数字和英文和符号）</string>
+    <string name="feed_back">意见反馈格式错误（不支持特殊字符）</string>
+    <string name="vip_time">时间</string>
+    <string name="vip_task">成长任务</string>
+    <string name="vip_value">成长值</string>
+    <string name="level_that">等级说明</string>
+    <string name="vip_address">"/api/article/detail/8"</string>
+    <string name="error_feed_back">意见反馈为空</string>
+</resources>
+

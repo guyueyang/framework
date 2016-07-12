@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="quick_task">快速任务</string>
+    <string name="union_task">联盟任务</string>
+    <string name="limit_task">限时任务</string>
+    <string name="task_detail">任务详情</string>
+
+    <string-array name="task_array">
+        <item>@string/quick_task</item>
+        <item>@string/union_task</item>
+    </string-array>
+
+    <string name="task_describe">应用描述</string>
+    <string name="task_snapshots">应用截图</string>
+
+    <string name="select_snapshot">请选择上传图片..</string>
+    <string name="task_verify">请等待审核</string>
+    <string name="task_verify_failed">任务审核失败，请重新上传.</string>
+
+    <string name="task_can_do">任务可进行</string>
+    <string name="task_has_do">任务已完成</string>
+    <string name="finish_task">已完成任务</string>
+    <string name="un_finish_task">未完成任务</string>
+    <string name="task_is_verify">任务等待审核</string>
+    <string name="task_is_not_start">任务还没开始, 请稍后再来哦！</string>
+
+    <string name="task_download_start">下载应用</string>
+    <string name="task_download_pause">已暂停下载 %s</string>
+    <string name="task_download_progress">正在下载 %s</string>
+    <string name="task_download_finish">打开应用</string>
+
+    <string name="task_error">用户未达到<Data><![CDATA[<font color ="#FF6E40">%1$s</font>]]></Data>秒，请继续体验噢！</string>
+    <string name="delete_after_installed">已删除一键安装包.</string>
+    <string name="task_complete_info">恭喜您完成任务并获得 %s 积分</string>
+
+    <string name="task_today_can_complete">该任务今日还可完成</string>
+    <string name="task_today_is_complete">该任务今日已完成</string>
+
+    <string name="do_task">去做任务</string>
+    <string name="please_do_task">您在近 <Data><![CDATA[<font color ="#FF6E40">一个月内</font>]]></Data>未完成积分任务，无法成功兑换，请完成<Data><![CDATA[<font color ="#FF6E40">任一任务</font>]]></Data>后再来</string>
+    <string name="commit_snapshot">上传应用截图</string>
+
+    <string name="please_install_qq">请先安装QQ</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="height_home_header">935px</dimen>
+    <dimen name="height_home_header_top">574px</dimen>
+    <dimen name="height_home_header_bottom">190px</dimen>
+    <dimen name="height_home_header_interval">20px</dimen>
+
+    <dimen name="height_home_circle">298px</dimen>
+    <dimen name="height_home_circle_margin_top">40px</dimen>
+
+    <dimen name="height_home_user_info">130px</dimen>
+    <dimen name="with_home_user_info">@dimen/with_home_money</dimen>
+
+    <dimen name="height_home_money">76px</dimen>
+    <dimen name="with_home_money">570px</dimen>
+
+    <dimen name="padding_home">25px</dimen>
+
+</resources>
+
+

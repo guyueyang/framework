@@ -1,0 +1,57 @@
+<com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20px"
+    android:paddingTop="20px">
+
+    <TextView
+        android:id="@+id/tv_number"
+        style="@style/TextStyle.Task.Option.Icon"
+        android:gravity="center"
+        android:text="1" />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@+id/ll_score"
+        android:layout_toRightOf="@+id/tv_number">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextStyle.Task.Option.Title"
+            android:text="@string/test"
+            />
+
+        <TextView
+            android:id="@+id/tv_state"
+            style="@style/TextStyle.Task.Option.State"
+            android:text="@string/test"
+            android:visibility="gone"
+            />
+
+    </com.andcup.widget.AutoLinearLayout>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/ll_score">
+
+        <TextView
+            android:id="@+id/tv_score"
+            style="@style/TextStyle.Task.Quick.Detail.Item.Score"
+            android:text="30积分" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_task_finish"
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_finish"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+
+</com.andcup.widget.AutoRelativeLayout>

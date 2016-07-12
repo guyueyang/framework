@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_color"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_height="@dimen/height_family_top"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/px26"
+        android:paddingRight="@dimen/px26"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView style="@style/FamilyStyle.Top"
+            android:drawableLeft="@drawable/ic_family_member_white"
+            android:text="@string/family_member"
+            android:id="@+id/tv_family_number"
+            />
+
+        <TextView style="@style/FamilyStyle.Top"
+            android:layout_marginLeft="@dimen/px18"
+            android:drawableLeft="@drawable/ic_family_total_in_white"
+            android:text="@string/family_total_in"
+            android:id="@+id/tv_family_score"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_height="@dimen/height_family_member"
+        android:id="@+id/ll_level_1"
+        android:background="@drawable/selector_common_item"
+        style="@style/FamilyStyle.Layout">
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level"
+            android:id="@+id/tv_member"
+            android:text="@string/family_level_1_title"
+            />
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Info"
+            android:id="@+id/tv_score"
+            android:layout_alignParentRight="true"
+            android:text="@string/family_level_score"
+            android:drawableRight="@drawable/ic_more"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoRelativeLayout
+        style="@style/FamilyStyle.Layout"
+        android:id="@+id/ll_level_2"
+        android:background="@drawable/selector_common_item"
+        android:layout_height="@dimen/height_family_member">
+        <TextView
+            style="@style/FamilyStyle.Member.Level"
+            android:id="@+id/tv_member2"
+            android:text="@string/family_level_2_title"
+            />
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Info"
+            android:id="@+id/tv_score2"
+            android:layout_alignParentRight="true"
+            android:text="@string/family_level_score"
+            android:drawableRight="@drawable/ic_more"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <View style="@style/style_divider.h" android:layout_height="@dimen/px20"/>
+    
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_member_level"
+            android:layout_marginTop="@dimen/px20"
+            />
+
+        <Button
+            style="@style/FamilyStyle.Invite"
+            android:id="@+id/btn_invite"
+            />
+
+        <View style="@style/style_divider.h" android:layout_height="@dimen/px20"/>
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/px26"
+            android:paddingRight="@dimen/px26"
+            android:paddingTop="@dimen/px26"
+            android:paddingBottom="@dimen/px26"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:src="@drawable/bg_member_dynamic"
+                android:layout_gravity="center_vertical"
+                android:maxHeight="@dimen/px130"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fr_dynamic"
+                />
+
+        </com.andcup.widget.AutoLinearLayout>
+
+    </com.andcup.widget.AutoLinearLayout>
+
+
+</com.andcup.widget.AutoLinearLayout>

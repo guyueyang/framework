@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/FamilyStyle.Member.Level.Item"
+        android:id="@+id/tv_nick_name"
+        />
+
+    <TextView
+        style="@style/FamilyStyle.Member.Level.Item"
+        android:id="@+id/tv_join_days"
+        />
+
+    <TextView
+        style="@style/FamilyStyle.Member.Level.Item"
+        android:id="@+id/tv_complete_task"
+        />
+
+    <TextView
+        style="@style/FamilyStyle.Member.Level.Item"
+        android:id="@+id/tv_offer_score"
+        />
+</com.andcup.widget.AutoLinearLayout>

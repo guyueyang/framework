@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/include_title_with_back"
+        />
+    <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/login_top"
+            android:paddingLeft="@dimen/login_left"
+            android:paddingRight="@dimen/login_right"
+            android:background="@drawable/shape_dialog_bottom"
+            >
+            <EditText
+                style="@style/style_edit_phone_number"
+                android:id="@+id/et_content"
+                android:singleLine="true"
+                android:maxLength="11"
+                android:inputType="number"
+                />
+
+            <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+
+            <include layout="@layout/include_password"/>
+
+            <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+    </com.andcup.widget.AutoLinearLayout>
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/login_forget_password"
+            android:clickable="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/height_login_text"
+            android:layout_marginLeft="@dimen/login_left"
+            android:id="@+id/btn_find_password"
+            android:gravity="left|center_vertical"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_visitor"
+            android:text="@string/login_visitor_mode"
+            android:textColor="@color/colorActionBar"
+            android:textSize="@dimen/px28"
+            android:layout_marginRight="@dimen/login_right"
+            android:drawablePadding="10px"
+            android:background="@null"
+            android:drawableRight="@drawable/ic_arrow_red"
+            android:layout_alignParentRight="true"
+            />
+        </com.andcup.widget.AutoRelativeLayout>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_left"
+        android:layout_below="@+id/tl_password">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            style="@style/style_user_login.me"
+            android:id="@+id/btn_login"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="false"
+            custom:pb_textProgress="@string/login_in"
+            custom:pb_colorNormal="@color/red_ff6836"
+            custom:pb_colorPressed="@color/red_e65220"
+            custom:pb_colorError="@color/red_ea"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoLinearLayout>

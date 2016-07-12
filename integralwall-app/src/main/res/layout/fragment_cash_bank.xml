@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingBottom="28px"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <include layout="@layout/include_real_name"/>
+        <include layout="@layout/include_bank_name"
+            android:layout_marginTop="-0.5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+        <include layout="@layout/include_bank"
+            android:layout_marginTop="-0.5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <include layout="@layout/include_phone_number"
+            android:layout_marginTop="-0.5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <Button
+        style="@style/TextStyle.Home.Cashing.Action"
+        android:background="@drawable/selector_common_black"
+        android:text="@string/check_cashing"
+        android:id="@+id/btn_action"
+        android:enabled="false"
+        />
+
+    <include layout="@layout/include_cashing_info_title"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="32px"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+        style="@style/TextStyle.Home.Cashing.Info"
+        android:text="@string/check_cashing_bank_information"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_task_quick_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include_top"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_top"
+        android:layout_above="@+id/fr_business"
+        android:id="@+id/sv_container"
+        android:layout_marginTop="20px">
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/px26"
+            android:paddingRight="@dimen/px26"
+            >
+
+            <com.andcup.android.integralwall.commons.widget.AdapterListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lv_task_option"
+                android:minHeight="120px"
+                android:background="@drawable/shape_white_normal"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/bg_divider"
+                >
+            </com.andcup.android.integralwall.commons.widget.AdapterListView>
+
+            <include layout="@layout/include_task_quick_describe"/>
+
+            <com.andcup.android.integralwall.commons.htmltextview.HtmlTextView
+                style="@style/TextStyle.Task.Describe"
+                android:id="@+id/tv_describe"
+                />
+
+            <include layout="@layout/include_task_quick_snapshots"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/rv_snapshots"
+                android:layout_marginBottom="48px"
+                android:focusable="false"
+                />
+
+        </com.andcup.widget.AutoLinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px80"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fr_business"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/app_common_padding_edge"
+    android:orientation="vertical">
+
+    <com.andcup.android.integralwall.commons.widget.URIRoundedImageView
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:src="@drawable/ic_default_task"
+        android:layout_alignParentLeft="true"
+        app:riv_corner_radius="5dp"
+        android:id="@+id/riv_avatar"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:layout_width="@dimen/px28"
+        android:layout_height="@dimen/px28"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/px18"
+        android:gravity="center"
+        android:background="@drawable/shape_rank_1"
+        android:layout_alignRight="@+id/riv_avatar"
+        android:layout_alignTop="@+id/riv_avatar"
+        android:id="@+id/tv_rank"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginLeft="@dimen/app_common_padding"
+        android:layout_toRightOf="@+id/riv_avatar"
+        android:layout_toLeftOf="@+id/tv_score"
+        style="@style/TextStyle.Home.Item.Title"
+        android:textColor="@color/black_4c4b4b"
+        android:id="@+id/tv_title"
+        android:text="任务名"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Item.First.Score"
+        android:layout_alignParentRight="true"
+        android:text="获得30积分"
+        android:id="@+id/tv_score"
+        android:textColor="@color/black_4d4d4d"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

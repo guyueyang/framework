@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_landing">新手奖励</string>
+    <string name="daily_landing">每日奖励</string>
+    <string name="first_landing_receive">领取</string>
+    <string name="first_landing_have_receive">已领取</string>
+    <string name="complete_task">完成任务,领取50积分奖励</string>
+</resources>

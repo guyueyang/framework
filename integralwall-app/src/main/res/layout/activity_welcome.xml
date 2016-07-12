@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andcup.widget.AutoRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        />
+
+    <com.andcup.widget.CirclePageIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpi_welcome"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px80"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fr_container"
+        />
+
+    <com.andcup.android.integralwall.commons.loading.LoadingIndicatorView
+        android:id="@+id/loading"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        app:indicator="BallClipRotatePulse"
+        app:indicator_color="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

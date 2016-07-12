@@ -1,0 +1,51 @@
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fourth"
+    android:id="@+id/rl_background"
+    >
+
+    <Button
+        android:layout_height="75px"
+        android:id="@+id/btn_register"
+        android:layout_toRightOf="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="202px"
+        android:layout_width="272px"
+        android:layout_marginLeft="@dimen/px30"
+        android:text="@string/login_register"
+        android:background="@drawable/selector_login_register"
+        android:textSize="@dimen/px36"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_height="75px"
+        android:id="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="202px"
+        android:layout_width="272px"
+        android:layout_marginLeft="@dimen/px72"
+        android:background="@drawable/selector_login_register"
+        android:text="@string/login"
+        android:textSize="@dimen/px36"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_visitor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100px"
+        android:text="@string/login_visitor_mode"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px28"
+        android:padding="4px"
+        android:layout_marginRight="@dimen/px72"
+        android:drawablePadding="10px"
+        android:background="@drawable/selector_visitor"
+        android:drawableRight="@drawable/ic_arrow"
+        />
+</com.andcup.widget.AutoRelativeLayout>

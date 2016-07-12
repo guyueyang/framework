@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title_bar"
+        android:gravity="bottom"
+        android:background="@color/colorActionBar">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_title_bar"
+            android:background="@null"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/ic_back" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_tab"
+            style="@style/style_tab"
+            app:tabTextColor="@color/colorWhite"
+            app:tabSelectedTextColor="@color/colorWhite"
+            app:tabIndicatorColor="@color/colorWhite"
+            app:tabTextAppearance="@style/style_action_bar_title"
+            android:layout_marginBottom="4px"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageButton
+            android:layout_width="@dimen/height_title_bar"
+            android:layout_height="@dimen/height_title_bar"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_mine_card"
+            android:background="@null"
+            android:id="@+id/btn_card"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

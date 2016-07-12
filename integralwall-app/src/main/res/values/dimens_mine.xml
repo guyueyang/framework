@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mine_px68">68px</dimen>
+    <dimen name="mine_px28">28px</dimen>
+    <dimen name="mine_px96">96px</dimen>
+    <dimen name="mine_px162">162px</dimen>
+</resources>

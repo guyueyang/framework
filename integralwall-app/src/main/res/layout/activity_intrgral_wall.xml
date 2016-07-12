@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_root"
+    android:fitsSystemWindows="true"
+    >
+
+    <com.andcup.android.integralwall.commons.widget.ScrolledViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vp_navigator"
+        android:layout_above="@+id/ll_footer"
+        />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:id="@+id/ll_footer"
+        >
+        <com.andcup.widget.widget.AutoRadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_navigator"
+            android:background="@drawable/bg_navigator"
+            android:orientation="horizontal"
+            android:layout_above="@+id/tv_network"
+            android:paddingTop="12px"
+            android:paddingBottom="12px"
+            />
+
+        <TextView
+            style="@style/AppTextStyleNetwork"
+            android:id="@+id/tv_network"
+            android:visibility="gone"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoRelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="beiduo_sdk_wall_v5.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/integralwall-third-sdk/libs/beiduo_sdk_wall_v5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

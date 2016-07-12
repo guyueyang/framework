@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_content_color"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_cash_banner"
+        android:id="@+id/iv_banner"
+        />
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px90">
+
+        <TextView style="@style/CashStyle.Score" android:id="@+id/tv_score"/>
+        <TextView style="@style/CashStyle.History" android:id="@+id/tv_exchange_history"/>
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <TextView
+        style="@style/CashStyle.Item.Text"
+        android:drawableLeft="@drawable/ic_cash_qq"
+        android:text="@string/qb_exchange"
+        android:id="@+id/tv_qb"
+        android:visibility="gone"
+        />
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/CashStyle.Item.Text"
+            android:drawableLeft="@drawable/ic_phone_fare"
+            android:text="@string/telephone_fare"
+            android:id="@+id/tv_phone_fare"
+            />
+
+        <TextView style="@style/CashStyle.Info"
+            android:layout_centerVertical="true"
+            android:text="@string/cash_phone_fare"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/CashStyle.Item.Text"
+            android:drawableLeft="@drawable/ic_alipay"
+            android:text="@string/exchange_money"
+            android:id="@+id/tv_alipay"
+            />
+
+        <TextView style="@style/CashStyle.Info"
+            android:layout_centerVertical="true"
+            android:text="@string/cash_ali_pay"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/CashStyle.Item.Text"
+            android:drawableLeft="@drawable/ic_bank_card"
+            android:text="@string/exchange_money_bank"
+            android:id="@+id/tv_bank"
+            />
+
+        <TextView style="@style/CashStyle.Info"
+            android:layout_centerVertical="true"
+            android:text="@string/cash_bank"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <View style="@style/style_divider.h"/>
+
+</com.andcup.widget.AutoLinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/px35"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mine_card"
+        android:textSize="@dimen/px30"
+        android:textColor="@color/app_text_color"
+        android:gravity="center"
+        />
+
+    <View style="@style/style_divider.h"
+        android:layout_marginTop="@dimen/px20"/>
+
+    <com.andcup.android.integralwall.commons.widget.SmartImageView
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:id="@+id/riv_card"
+        android:layout_marginTop="@dimen/px10"
+        />
+
+    <View style="@style/style_divider.h"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scanning_card"
+        android:textSize="@dimen/px30"
+        android:textColor="@color/app_text_color"
+        android:layout_marginTop="@dimen/px20"
+        android:gravity="center"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

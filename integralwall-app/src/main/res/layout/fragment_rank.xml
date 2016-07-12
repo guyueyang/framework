@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_action_bar"
+        android:background="@color/colorActionBar">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="75px"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_back"
+            android:background="@null"
+            android:padding="15dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_back"
+            />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_tab"
+            style="@style/style_tab"
+            app:tabTextColor="@color/colorWhite"
+            app:tabSelectedTextColor="@color/colorWhite"
+            app:tabIndicatorColor="@color/colorWhite"
+            app:tabTextAppearance="@style/style_action_bar_title"
+            android:layout_marginBottom="4px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_title_bar"
+            android:text="@string/rank_info"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/px28"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/include_title_bar"
+            android:paddingRight="@dimen/px30"
+            android:id="@+id/tv_rule"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FamilyStyle">
+
+    </style>
+
+    <style name="FamilyStyle.Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingRight">@dimen/px26</item>
+    </style>
+
+    <style name="FamilyStyle.Top" parent="FamilyStyle">
+        <item name="android:background">@drawable/selector_common_red</item>
+        <item name="android:layout_height">@dimen/px80</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">@dimen/px18</item>
+        <item name="android:textSize">@dimen/px30</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/px24</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="FamilyStyle.Member.Top" parent="FamilyStyle">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/px40</item>
+        <item name="android:paddingBottom">@dimen/px40</item>
+        <item name="android:drawablePadding">@dimen/px18</item>
+        <item name="android:textSize">@dimen/px30</item>
+        <item name="android:textColor">@color/black_292931</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/px24</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="FamilyStyle.Member.Level" parent="FamilyStyle">
+        <item name="android:layout_width">280px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">120px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">12px</item>
+        <item name="android:textSize">@dimen/px30</item>
+        <item name="android:textColor">@color/black_4d4d4d</item>
+    </style>
+
+    <style name="FamilyStyle.Member.Level.Info" parent="FamilyStyle.Member.Level">
+        <item name="android:layout_width">300px</item>
+        <item name="android:drawablePadding">100px</item>
+    </style>
+
+
+    <style name="FamilyStyle.Invite" parent="FamilyStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_family_invite</item>
+        <item name="android:layout_marginTop">30px</item>
+        <item name="android:layout_marginBottom">20px</item>
+        <item name="android:layout_marginLeft">75px</item>
+        <item name="android:layout_marginRight">75px</item>
+        <item name="android:background">@drawable/selector_common_yellow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:text">@string/family_invite</item>
+    </style>
+
+    <style name="CashStyle.Score" parent="AppTextStyle">
+        <item name="android:textColor">@color/black_4d4d4d</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawableLeft">@drawable/ic_score</item>
+        <item name="android:paddingLeft">@dimen/px24</item>
+        <item name="android:drawablePadding">20px</item>
+        <item name="android:text">@string/mine_score_cash</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="CashStyle.History" parent="AppTextStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/black_4d4d4d</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawableRight">@drawable/ic_more</item>
+        <item name="android:paddingRight">@dimen/px50</item>
+        <item name="android:drawablePadding">20px</item>
+        <item name="android:text">@string/check_cash_history</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/px28</item>
+    </style>
+
+    <style name="CashStyle.Info" parent="AppTextStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/red_ff6836</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableRight">@drawable/ic_more</item>
+        <item name="android:paddingRight">@dimen/px50</item>
+        <item name="android:drawablePadding">20px</item>
+        <item name="android:text">@string/check_cash_history</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/px26</item>
+    </style>
+
+    <style name="CashStyle.Item.Text" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">26px</item>
+        <item name="android:textColor">@color/black_303030</item>
+        <item name="android:textSize">@dimen/px30</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">22px</item>
+        <item name="android:paddingBottom">22px</item>
+        <item name="android:paddingLeft">26px</item>
+        <item name="android:paddingRight">50px</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    
+    <style name="InputStyle" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px70</item>
+        <item name="android:drawablePadding">@dimen/px20</item>
+        <item name="android:background">@drawable/selector_search_input</item>
+        <item name="android:padding">@dimen/px15</item>
+        <item name="android:textColor">@color/black_4c4b4b</item>
+        <item name="android:textSize">@dimen/px26</item>
+    </style>
+
+    <style name="FamilyStyle.Member.Level.Item" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:padding">@dimen/px24</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FamilyStyle.Member.Level.Item.Title" parent="FamilyStyle.Member.Level.Item">
+        <item name="android:textColor">@color/black_4c4b4b</item>
+        <item name="android:textSize">@dimen/px24</item>
+    </style>
+
+    <style name="FamilyStyle.Reward.Tab.Title" parent="FamilyStyle.Member.Level.Item">
+        <item name="android:textColor">@color/black_4c4b4b</item>
+        <item name="android:textSize">@dimen/px24</item>
+    </style>
+
+    <style name="FamilyStyle.Dynamic">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_landing_width">672px</dimen>
+    <dimen name="first_landing_height">420px</dimen>
+    <dimen name="first_landing_px32">32px</dimen>
+    <dimen name="first_landing_px118">118px</dimen>
+</resources>

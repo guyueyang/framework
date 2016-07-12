@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andcup.android.app.integralwall.datalayer">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="IntegralWall.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="3" />
+
+        <provider
+            android:name=".activieandroid.IntegralWallModelsProvider"
+            android:authorities="com.yl.android.cpa"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

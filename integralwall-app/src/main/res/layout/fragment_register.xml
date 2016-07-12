@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_fo"
+    >
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog_bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/login_left"
+        android:paddingRight="@dimen/login_right">
+
+        <EditText
+            android:layout_marginTop="70px"
+            style="@style/style_edit_phone_number"
+            android:id="@+id/et_phone"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:inputType="number"
+            />
+
+        <View
+            style="@style/style_divider.h"
+            android:background="@color/white_dfdfdf" />
+
+        <include layout="@layout/include_verify_code" />
+
+        <View
+            style="@style/style_divider.h"
+            android:background="@color/white_dfdfdf" />
+
+        <include layout="@layout/include_password" />
+
+        <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+
+        <EditText
+            android:id="@+id/et_invite_code"
+            style="@style/style_edit_base"
+            android:inputType="number"
+            android:hint="@string/login_hint_invite_code" />
+
+        <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+    </com.andcup.widget.AutoLinearLayout>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48px">
+        <include layout="@layout/include_user_protocol"/>
+    </com.andcup.widget.AutoLinearLayout>
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_left"
+        android:layout_marginTop="@dimen/login_top">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_register"
+            style="@style/style_user_login.me"
+            android:layout_width="match_parent"
+            android:text="@string/login_register"
+            custom:pb_textProgress="@string/login_register_in"
+            custom:pb_colorNormal="@color/red_ff6836"
+            custom:pb_colorPressed="@color/red_e65220"
+            custom:pb_colorError="@color/dimgray" />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoLinearLayout>

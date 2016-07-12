@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/real_env"
+        android:gravity="center"
+        android:id="@+id/tv_content"
+        android:textColor="@color/app_text_color"
+        />
+
+    <View style="@style/style_divider.h"/>
+
+</com.andcup.widget.AutoLinearLayout>

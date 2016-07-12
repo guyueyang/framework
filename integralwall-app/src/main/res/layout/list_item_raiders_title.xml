@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/px30"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="8px"
+        android:layout_height="match_parent"
+        android:background="@color/red_f46449"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hot_task"
+        android:orientation="vertical"
+        android:textSize="30px"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16px"
+        android:id="@+id/tv_title"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <com.andcup.android.integralwall.commons.loading.LoadingIndicatorView
+        android:id="@+id/loading"
+        android:layout_width="55px"
+        android:layout_height="55px"
+        app:indicator="BallClipRotatePulse"
+        app:indicator_color="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="@string/load_more"
+        android:textSize="@dimen/px24"
+        android:textColor="@color/app_text_content_color"
+        android:gravity="center"
+        />
+</com.andcup.widget.AutoLinearLayout>

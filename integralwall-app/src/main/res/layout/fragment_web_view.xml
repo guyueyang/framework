@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+              style="@style/style_title"
+              android:id="@+id/tv_title"
+              android:visibility="gone"
+            />
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <WebView android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/wv_page"
+                />
+
+        <com.andcup.widget.AutoLinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll_loading"
+            android:gravity="center">
+            <com.andcup.android.integralwall.commons.loading.LoadingIndicatorView
+                android:id="@+id/loading"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                app:indicator="BallClipRotatePulse"
+                app:indicator_color="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:padding="30px"
+                android:text="@string/loading"
+                android:textSize="@dimen/px24"
+                android:textColor="@color/app_text_content_color"
+                android:gravity="center"
+                />
+        </com.andcup.widget.AutoLinearLayout>
+    </RelativeLayout>
+</LinearLayout>

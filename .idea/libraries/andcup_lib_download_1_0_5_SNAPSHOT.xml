@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="andcup-lib-download-1.0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/integralwall-third-sdk/build/intermediates/exploded-aar/com.andcup.lib.download/andcup-lib-download/1.0.5-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/integralwall-third-sdk/build/intermediates/exploded-aar/com.andcup.lib.download/andcup-lib-download/1.0.5-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

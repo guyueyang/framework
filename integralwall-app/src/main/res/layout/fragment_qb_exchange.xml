@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30px">
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/QbStyle.Content"
+        android:padding="@dimen/px30"
+        android:text="@string/qb_exchange_info"
+        android:textColor="@color/app_text_content_color"
+        android:lineSpacingExtra="@dimen/px20"
+        android:textSize="@dimen/px28" />
+
+    <EditText
+        android:id="@+id/et_qq"
+        style="@style/style_input"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_qq_number"
+        android:numeric="integer"
+        android:padding="@dimen/px30"
+        android:textSize="@dimen/px28" />
+
+    <View
+        style="@style/style_divider.h"
+        android:background="@color/white_dfdfdf" />
+
+</com.andcup.widget.AutoLinearLayout>

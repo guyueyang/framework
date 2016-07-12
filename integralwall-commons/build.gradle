@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+apply from: rootProject.file('buildsystem/andcup-android.gradle')
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //  ref andcup frame
+    def andcup = rootProject.ext.andcup
+    compile andcup.framework
+    compile andcup.autoLayout
+
+    def android = rootProject.ext.android
+    compile android.supportRecyclerView
+
+    def libs = rootProject.ext.libs
+    compile libs.glide
+    compile libs.circleimageview
+    compile libs.nineoldandroids
+    compile libs.flycoTabLayout
+    compile libs.roundedimageview
+    compile libs.imageCompression
+    compile libs.nineoldandroids
+    compile libs.picasso
+    //compile rootProject.ext.android.supportPercent
+    compile project(':integralwall-data-layer')
+}
+
+apply from: rootProject.file('buildsystem/andcup-checkstyle.gradle')

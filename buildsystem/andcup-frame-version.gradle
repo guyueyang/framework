@@ -1,0 +1,6 @@
+allprojects {
+
+    version = "2.0.0-SNAPSHOT"
+    group = "com.andcup.android.frame.app"
+
+}

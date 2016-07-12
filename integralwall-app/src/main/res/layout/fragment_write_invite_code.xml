@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg_invite_code"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_invite_code"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/px40"
+        android:textColor="@color/white"
+        android:layout_above="@+id/ed_write_invite_code"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/px30"/>
+
+    <EditText
+        android:id="@+id/ed_write_invite_code"
+        android:layout_width="@dimen/px428"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_search_input"
+        android:paddingLeft="@dimen/px20"
+        android:layout_marginTop="@dimen/px40"
+        android:digits="@string/limits_number"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_submit"
+        android:layout_marginBottom="@dimen/px40"
+        android:textSize="@dimen/px30"
+        android:padding="@dimen/px15"
+        android:singleLine="true"
+        android:maxLength="30"
+        />
+    <TextView
+        android:id="@+id/btn_submit"
+        style="@style/style_user_login.light"
+        android:layout_width="@dimen/px428"
+        android:textSize="@dimen/px30"
+        android:layout_marginBottom="@dimen/px290"
+        android:text="@string/submit"
+        android:textColor="@color/app_theme_common_color"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/px102"
+        android:textSize="@dimen/px28"
+        android:textColor="@color/white"
+        android:text="@string/invite_code_write_reward"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px80"
+        android:paddingLeft="@dimen/px70"
+        android:paddingRight="@dimen/px70"
+        android:lineSpacingExtra="@dimen/px15"
+        />
+</com.andcup.widget.AutoRelativeLayout>

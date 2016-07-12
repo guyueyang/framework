@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_divider">@color/white_ededed</color>
+    <color name="app_content_color">@color/white_smoke</color>
+    <color name="app_text_content_color">@color/dimgray</color>
+    <color name="app_theme_common_color">@color/red_ff6836</color>
+    <!--<color name="app_theme_common_color">@color/red_FF6E40</color>-->
+    <color name="app_text_color">@color/gray_666666</color>
+    <color name="rippelColor">@color/dimgray</color>
+</resources>

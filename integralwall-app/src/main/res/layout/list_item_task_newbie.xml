@@ -1,0 +1,74 @@
+<com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="40px"
+    android:paddingTop="40px"
+    android:gravity="center"
+    android:id="@+id/rl_first_landing"
+    android:background="@drawable/selector_common_item">
+
+    <TextView
+        android:id="@+id/tv_number"
+        style="@style/TextStyle.Task.Option.Icon"
+        android:gravity="center"
+        android:text="1" />
+
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextStyle.Task.Option.Title"
+            android:text="了解龙易赚100积分=1元"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/tv_score"
+            android:layout_toRightOf="@+id/tv_number"
+            android:visibility="visible"
+            />
+
+        <com.andcup.widget.AutoRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:layout_toLeftOf="@+id/iv_more"
+            >
+        <TextView
+            android:id="@+id/tv_score"
+            style="@style/TextStyle.Task.Quick.Detail.Item.Score"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_task_finish"
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_finish"
+
+            />
+            <Button
+                android:id="@+id/btn_receive"
+                android:text="@string/first_landing_receive"
+                style="@style/style_user_login.verify.code"
+                android:layout_width="98px"
+                android:layout_height="58px"
+                android:textSize="28px"
+                android:layout_centerInParent="true"
+                android:textColor="@color/red_ff6836"
+                />
+        </com.andcup.widget.AutoRelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/px32"
+        android:layout_marginRight="@dimen/px26"
+        android:paddingTop="@dimen/px20"
+        android:paddingBottom="@dimen/px20"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"/>
+
+</com.andcup.widget.AutoRelativeLayout>

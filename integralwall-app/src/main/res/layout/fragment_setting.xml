@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_color"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/style_setting.text"
+            android:text="@string/message_notify" />
+
+        <ToggleButton
+            android:id="@+id/tg_message"
+            style="@style/style_setting.switch"
+            android:layout_width="81px"
+            android:layout_height="55px"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_butn_toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+        <!--<com.qioq.android.widget.switchbutton.SwitchButton-->
+        <!--android:id="@+id/sb_message"-->
+        <!--style="@style/style_setting.switch"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--app:frameDrawable="@mipmap/switch_frame"-->
+        <!--app:sliderDrawable="@drawable/selector_switch_slider"-->
+        <!--app:stateDrawable="@drawable/selector_switch_state"-->
+        <!--app:stateMaskDrawable="@mipmap/switch_state_mask"-->
+        <!--app:withTextInterval="16dp" />-->
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/style_setting.text"
+            android:text="@string/picture_setting" />
+
+        <ToggleButton
+            android:id="@+id/tg_picture"
+            style="@style/style_setting.switch"
+            android:layout_width="81px"
+            android:layout_height="55px"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_butn_toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_clear_cache"
+            style="@style/style_setting.text"
+            android:text="@string/clear_cache" />
+
+        <TextView
+            android:id="@+id/tv_cache"
+            style="@style/style_setting.switch"
+            android:layout_alignParentRight="true"
+            android:text="@string/clear_cache" />
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <include layout="@layout/include_divider" />
+
+    <TextView
+        android:id="@+id/tv_feed_back"
+        style="@style/style_setting.text"
+        android:text="@string/feedback" />
+
+    <include layout="@layout/include_divider" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        style="@style/style_setting.text"
+        android:text="@string/frequently_asked_questions" />
+
+    <include layout="@layout/include_divider" />
+
+    <TextView
+        android:id="@+id/tv_check_update"
+        style="@style/style_setting.text"
+        android:text="@string/check_update" />
+
+
+    <include layout="@layout/include_divider" />
+
+    <TextView
+        android:id="@+id/tv_about_me"
+        style="@style/style_setting.text"
+        android:text="@string/about_me" />
+
+    <include layout="@layout/include_divider" />
+
+    <TextView
+        android:id="@+id/tv_login_out"
+        style="@style/style_setting.text"
+        android:layout_marginTop="@dimen/px26"
+        android:gravity="center"
+        android:text="@string/login_out"
+        android:textColor="@color/red_ff3f00"
+        android:textSize="@dimen/px30" />
+
+
+</com.andcup.widget.AutoLinearLayout>

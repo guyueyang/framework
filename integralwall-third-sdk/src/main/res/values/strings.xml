@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">umeng-update-sdk</string>
+    <string name="dianru_app_key">00002F432400007F</string>
+    <string name="dianru_app_key_debug">000085432400007F</string>
+    <string name="domob_app_key">96ZJ3LEgzfpT7wTPmM</string>
+    <string name="domob_app_key_debug">96ZJ3zIAzfpT7wTP1J</string>
+</resources>

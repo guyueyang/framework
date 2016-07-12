@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_login_title_bar">60dp</dimen>
+    <dimen name="app_common_text_size">24px</dimen>
+    <dimen name="app_common_padding">24px</dimen>
+    <dimen name="app_common_title_size">30px</dimen>
+    <dimen name="app_common_action_bar_title_size">@dimen/h7</dimen>
+    <dimen name="navigator_bar_text_size">22px</dimen>
+    <dimen name="height_navigator">100px</dimen>
+    <dimen name="app_common_padding_edge">26px</dimen>
+
+    <dimen name="height_title_bar">75px</dimen>
+    <dimen name="height_action_bar">@dimen/height_title_bar</dimen>
+
+    <dimen name="height_slider">170dp</dimen>
+    <dimen name="height_play">131dp</dimen>
+    <dimen name="height_slider_sign_in">150dp</dimen>
+·
+    <dimen name="size_image">80dp</dimen>
+    <dimen name="height_task_detail">120dp</dimen>
+
+    <dimen name="height_shake">280dp</dimen>
+    <dimen name="width_shake">285dp</dimen>
+
+    <dimen name="margin_bottom">60dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+
+    <dimen name="margin_top_34dp">34dp</dimen>
+    <dimen name="height_exchange_item">80dp</dimen>
+
+    <dimen name="width_login_screen_btn">150dp</dimen>
+
+    <dimen name="height_sign_in">51dp</dimen>
+    <dimen name="with_sign_in">60dp</dimen>
+    <dimen name="height_member_info">130dp</dimen>
+
+    <dimen name="quick_task_right_width">84dp</dimen>
+    <dimen name="quick_task_right_height">62.4dp</dimen>
+
+    <dimen name="height_banner">300px</dimen>
+
+    <dimen name="image_size">82px</dimen>
+
+</resources>

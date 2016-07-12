@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|bottom"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title_bar"
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        android:text="@string/navigator_item_home"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/app_common_action_bar_title_size"
+        />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="130px"
+        android:layout_height="@dimen/height_title_bar"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rl_msg"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_msg"
+            android:layout_marginRight="50px"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:background="@drawable/shape_msg_option"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            android:textSize="@dimen/px15"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="1"
+            android:singleLine="true"
+            android:id="@+id/tv_count"
+            android:visibility="gone"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+</com.andcup.widget.AutoRelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/selector_common_item"
+    android:layout_height="match_parent">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/style_mine.exp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_from"
+            style="@style/style_mine.exp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_value"
+            style="@style/style_mine.exp"
+            android:layout_weight="1" />
+    </com.andcup.widget.AutoLinearLayout>
+
+</com.andcup.widget.AutoRelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_title_bar"
+    android:background="@color/colorActionBar"
+    android:gravity="bottom"
+    android:paddingBottom="5px"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_title_bar"
+        android:background="@null"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title_bar"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/px36"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

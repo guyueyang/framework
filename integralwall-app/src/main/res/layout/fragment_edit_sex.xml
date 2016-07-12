@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px100"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/sec_pick" />
+
+    <View style="@style/style_divider.h"/>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <com.andcup.android.integralwall.commons.numberpicker.NumberPicker
+            android:id="@+id/np_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NPWidget.Holo.Light.NumberPicker"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+    <View style="@style/style_divider.h"/>
+</com.andcup.widget.AutoLinearLayout>

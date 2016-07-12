@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_setting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_setting.switch" parent="style_setting">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/px28</item>
+    </style>
+
+    <style name="style_setting.text" parent="style_setting">
+        <item name="android:textColor">@color/black_666</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/px36</item>
+        <item name="android:paddingBottom">@dimen/px36</item>
+        <item name="android:paddingLeft">@dimen/px26</item>
+        <item name="android:drawablePadding">@dimen/px26</item>
+        <item name="android:paddingRight">@dimen/px30</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/selector_common_item</item>
+        <item name="android:textSize">@dimen/px30</item>
+    </style>
+
+    <style name="style_setting.phone_invite_code" parent="style_setting">
+        <item name="android:textColor">@color/black_b2</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="style_setting.about" parent="style_setting">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">@dimen/px30</item>
+
+    </style>
+
+    <style name="style_input_address">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">41dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/h5</item>
+    </style>
+
+    <style name="style_input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/h5</item>
+    </style>
+
+    <style name="style_input_no_focus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/selector_input_normal</item>
+    </style>
+
+</resources>

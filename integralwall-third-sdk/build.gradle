@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+
+apply from: rootProject.file('buildsystem/andcup-android.gradle')
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    def andcup = rootProject.ext.andcup
+    compile andcup.framework
+    compile project(':integralwall-analytics-umeng')
+
+
+    compile "com.andcup.android.update:andcup-lib-update:1.0.0-SNAPSHOT"
+}

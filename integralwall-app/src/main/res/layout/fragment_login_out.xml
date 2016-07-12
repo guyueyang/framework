@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_content_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:background="@drawable/selector_common_item"
+        android:text="@string/login_out"
+        android:textColor="@color/app_theme_common_color"
+        android:padding="@dimen/px30"
+        android:textSize="@dimen/px30"
+        android:gravity="center"
+        />
+
+    <View style="@style/style_divider.h"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel"
+        android:text="@string/cancel"
+        android:padding="@dimen/px30"
+        android:textSize="@dimen/px30"
+        android:gravity="center"
+        android:textColor="@color/app_text_color"
+        android:layout_marginTop="@dimen/px30"
+        android:background="@drawable/selector_common_item"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

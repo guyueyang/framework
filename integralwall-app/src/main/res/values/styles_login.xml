@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_user_login">
+        <item name="android:layout_width">@dimen/width_login_btn</item>
+        <item name="android:layout_height">@dimen/width_login_btns</item>
+        <item name="android:textSize">@dimen/height_login_btn_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@drawable/selector_font_white_gray</item>
+    </style>
+
+    <style name="style_user_login_screen">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="style_user_login.me" parent="style_user_login">
+        <item name="android:background">@drawable/selector_common_yellow</item>
+    </style>
+
+    <style name="style_user_login.light" parent="style_user_login">
+        <item name="android:background">@drawable/selector_common_yellow_light</item>
+    </style>
+
+    <style name="style_edit_phone_number" parent="style_edit_base">
+        <item name="android:digits">@string/limits_number</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:hint">@string/login_hint_username</item>
+    </style>
+
+    <style name="style_title">
+        <item name="android:layout_height">@dimen/height_title_bar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/app_theme_common_color</item>
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textColor">@color/black_292931</item>
+    </style>
+
+    <style name="style_login_tab">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">36px</item>
+    </style>
+
+
+    <style name="Third.Sdk.Text" parent="AppTextStyle">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">12px</item>
+        <item name="android:textColor">@color/black_b2b2b2</item>
+        <item name="android:textSize">24px</item>
+    </style>
+</resources>

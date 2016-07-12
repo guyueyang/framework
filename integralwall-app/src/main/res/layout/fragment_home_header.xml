@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/app_theme_common_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="@dimen/height_home_circle"
+            android:layout_marginTop="@dimen/height_home_circle_margin_top"
+            android:layout_height="@dimen/height_home_circle">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="12dp"
+                app:civ_border_color="@color/black_tran_30p"
+                app:civ_fill_color="@color/white_fffdfd"
+                android:src="@color/white_fffdfd"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" />
+
+            <TextView style="@style/TextStyle.Home.Score"
+                android:id="@+id/tv_score"
+                />
+        </RelativeLayout>
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="@dimen/with_home_user_info"
+            android:layout_height="@dimen/height_home_user_info"
+            android:paddingTop="@dimen/padding_home"
+            android:paddingBottom="@dimen/padding_home"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Home.UserInfo"
+                android:text="@string/mine_id"
+                android:id="@+id/tv_mine_id"
+                />
+
+            <View style="@style/AppDivider.V"/>
+            
+            <TextView
+                style="@style/TextStyle.Home.UserInfo"
+                android:id="@+id/tv_today_in_score"
+                />
+
+            <View style="@style/AppDivider.V"/>
+
+            <TextView
+                style="@style/TextStyle.Home.UserInfo"
+                android:id="@+id/tv_today_new_member"
+                />
+
+        </com.andcup.widget.AutoLinearLayout>
+
+        <Button
+            style="@style/TextStyle.Home.Money"
+            android:text="@string/home_get_money"
+            android:layout_marginBottom="@dimen/px26"
+            android:id="@+id/btn_task"
+            />
+
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_home_header_interval"
+        android:background="@color/white_f0f0f0"
+        />
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_home"
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            style="@style/TextStyle.Home.Tab"
+            android:drawableTop="@drawable/ic_home_sign_in"
+            android:text="@string/home_sign_in"
+            android:id="@+id/tv_calendar"
+            />
+
+        <TextView
+            style="@style/TextStyle.Home.Tab"
+            android:drawableTop="@drawable/ic_home_check_cash"
+            android:text="@string/home_check_cash"
+            android:id="@+id/tv_check_cash"
+            />
+
+        <TextView
+            style="@style/TextStyle.Home.Tab"
+            android:drawableTop="@drawable/ic_home_invite"
+            android:text="@string/home_invite"
+            android:id="@+id/tv_invite"
+            />
+
+        <TextView
+            style="@style/TextStyle.Home.Tab"
+            android:drawableTop="@drawable/ic_home_rank"
+            android:text="@string/home_rank"
+            android:id="@+id/tv_rank"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_home_header_interval"
+        android:background="@color/white_f0f0f0"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

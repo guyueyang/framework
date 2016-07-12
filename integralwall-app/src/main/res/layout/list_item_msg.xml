@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:padding="@dimen/app_common_padding_edge"
+    ripple:rv_type="doubleRipple"
+    android:orientation="vertical"
+    android:background="@drawable/selector_common_item"
+    >
+
+    <ImageButton
+        android:layout_width="82px"
+        android:layout_height="82px"
+        android:src="@drawable/selector_msg_type"
+        android:layout_alignParentLeft="true"
+        app:riv_corner_radius="5dp"
+        android:id="@+id/iv_avatar"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/app_common_padding"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@+id/tv_score"
+        android:paddingRight="20px"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextStyle.Home.Item.Title"
+            android:textColor="@color/black_4c4b4b"
+            android:id="@+id/tv_title"
+            android:text="任务名"
+            />
+
+        <com.andcup.android.integralwall.commons.htmltextview.HtmlTextView
+            style="@style/TextStyle.Home.Item.Content"
+            android:text="内容简介"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="10px"
+            android:id="@+id/tv_content"
+            android:singleLine="true"
+            />
+
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <TextView
+        style="@style/TextStyle.Home.Item.First.Score"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_score"
+        android:textColor="@color/red_ff6836"
+        android:drawableRight="@drawable/ic_more"
+        />
+
+</com.andcup.widget.AutoRelativeLayout>

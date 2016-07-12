@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_login_text">24px</dimen>
+    <dimen name="height_login_btn_text">36px</dimen>
+    <dimen name="login_third_left">18px</dimen>
+    <dimen name="login_third_right">18px</dimen>
+    <dimen name="login_third_top">62px</dimen>
+    <dimen name="login_third_bottom">44px</dimen>
+    <dimen name="login_third_btn_width">88px</dimen>
+    <dimen name="login_third_btn_height">124px</dimen>
+    <dimen name="login_left">48px</dimen>
+    <dimen name="login_right">40px</dimen>
+    <dimen name="login_top">70px</dimen>
+</resources>

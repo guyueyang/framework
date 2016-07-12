@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="navigator_item_home">首页</string>
+    <string name="navigator_item_task">赚钱</string>
+    <string name="navigator_item_family">家族</string>
+    <string name="navigator_item_user">我的</string>
+
+    <string name="home_get_money">开始赚钱</string>
+    <string name="mine_id">%s\n我的ID</string>
+    <string name="today_in_score">%s\n今日收入</string>
+    <string name="today_new_member">%s\n今日纳新</string>
+
+    <string name="mine_score">%s\n我的积分</string>
+
+    <string name="mine_card">我的名片</string>
+    <string name="scanning_card">扫描二维码快速加入我的家族</string>
+
+    <string name="home_sign_in">签 到</string>
+    <string name="home_check_cash">提 现</string>
+    <string name="home_invite">邀 请</string>
+    <string name="home_rank">排 行</string>
+
+    <string name="hot_task">热门任务</string>
+    <string name="daily_task">每日奖励</string>
+    <string name="new_user_rewards">新手奖励</string>
+    <string name="wait_finish_task">待完成任务</string>
+
+    <string name="format_score">%s 积分</string>
+    <string name="view_more">查看更多</string>
+    <string name="load_more">正在加载更多数据...</string>
+
+    <string name="mine_score_calendar">我的积分\n%s</string>
+    <string name="mine_score_cash">我的积分 : %s积分</string>
+    <string name="check_cash_history">兑换记录</string>
+
+    <string name="limit_task_coming_soon">任务即将开始,准时来抢！</string>
+
+    <string name="day_0">日</string>
+    <string name="day_1">一</string>
+    <string name="day_2">二</string>
+    <string name="day_3">三</string>
+    <string name="day_4">四</string>
+    <string name="day_5">五</string>
+    <string name="day_6">六</string>
+
+    <string name="sign_in_success">签到成功</string>
+    <string name="has_sign_in">已签到</string>
+    <string name="sign_rule">攻略</string>
+
+    <string name="rank_week">3日排行</string>
+    <string name="rank_month">7日排行</string>
+    <string name="rank_score">获得%s积分</string>
+    <string name="rank_mine">我的排名 : %s</string>
+    <string name="rank_mine_none">未进入排行榜</string>
+    <string name="rank_info">说明</string>
+    <string name="sign_rule_detail">第1天获得1积分；\n第2天获得2积分；\n第3天获得3积分；\n第4天获得4积分；\n之后连续签到每天可获得5积分；\n中途间断则重新开始计算积分。</string>
+    <string name="rank_rule_detail">1.3日排行：从当前日期的前3天排行\n2.7日排行：当前时间往前推7天排行</string>
+    <string name="bind_phone_number">您还未绑定手机,无法进行提现哦,请先进行绑定</string>
+    <string name="to_bind_phone_number">去绑定</string>
+
+    <string name="cash_phone_fare">3000积分起兑</string>
+    <string name="cash_ali_pay">2000积分起兑</string>
+    <string name="cash_bank">10000积分起兑</string>
+    <string name="disable_exchange">尊敬的用户，由于账户限制，如需兑换请联系客服QQ2749792995</string>
+
+    <string name="limit_task_content">%1$s 开始   共 %2$s 份</string>
+
+</resources>

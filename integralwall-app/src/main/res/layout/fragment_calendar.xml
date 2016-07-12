@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/include_title_with_back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_title_bar"
+        android:text="@string/sign_rule"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/px28"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/include_title_bar"
+        android:paddingRight="@dimen/px30"
+        android:id="@+id/tv_rule"
+        />
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow_fce88b"
+        android:layout_below="@+id/include_title_bar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="60px"
+            android:src="@drawable/ic_cloud_left" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            style="@style/TextStyle.Home.Calendar.Title"
+            android:layout_marginTop="50px"
+            android:text="@string/mine_score_calendar" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_score"
+            android:layout_marginRight="60px"
+            android:layout_toLeftOf="@+id/iv_right"
+            android:src="@drawable/ic_gold" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_score"
+            android:layout_marginTop="40px"
+            android:src="@drawable/ic_cloud_right" />
+
+        <com.andcup.widget.AutoLinearLayout
+            android:id="@+id/ll_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_score"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="76px"
+            android:background="@drawable/bg_calendar"
+            android:orientation="vertical"
+            android:paddingBottom="58px"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingTop="10px">
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="match_parent"
+                android:layout_height="82px"
+                android:layout_marginTop="32px"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/app_common_title_size" />
+
+            <com.andcup.widget.AutoLinearLayout
+                android:id="@+id/include_day"
+                android:layout_width="match_parent"
+                android:layout_height="64px"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/tv_month"
+                android:background="@drawable/shape_calendar_week"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_0" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_1" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_2" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_3" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_4" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_5" />
+
+                <TextView
+                    style="@style/TextStyle.Home.Calendar.Day"
+                    android:text="@string/day_6" />
+            </com.andcup.widget.AutoLinearLayout>
+
+            <GridView
+                android:id="@+id/gv_calendar"
+                style="@style/TextStyle.Home.Calendar.Month"
+                android:layout_below="@+id/include_day" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px10"
+                android:background="@drawable/shape_calendar_month_shadow" />
+        </com.andcup.widget.AutoLinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_footer"
+            android:layout_width="match_parent"
+            android:layout_height="269px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_calendar_footer" />
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px80"
+            android:layout_below="@+id/ll_calendar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60px"
+            android:background="@drawable/selector_common_red"
+            android:text="@string/home_sign_in"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/app_common_title_size" />
+
+    </com.andcup.widget.AutoRelativeLayout>
+</com.andcup.widget.AutoRelativeLayout>
+

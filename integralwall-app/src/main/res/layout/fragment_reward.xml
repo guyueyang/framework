@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_color"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_content_color"
+        android:orientation="vertical">
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/px35"
+            android:paddingLeft="@dimen/px20"
+            android:paddingRight="@dimen/px20"
+            android:paddingTop="@dimen/px35">
+
+            <com.andcup.widget.widget.AutoRadioGroup
+                android:id="@+id/rg_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="330px"
+                android:layout_marginTop="-20px"
+                android:background="@drawable/bg_reward_content"
+                android:textSize="@dimen/px24"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:paddingTop="38px"
+                android:paddingBottom="38px"
+                android:textColor="@color/black_292931"
+                android:gravity="left|top"
+                android:id="@+id/tv_content"
+                />
+
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="28px"
+                android:paddingLeft="106px"
+                android:paddingRight="108px"
+                android:paddingTop="28px">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="66px"
+                    android:layout_marginRight="28px"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_copy_normal"
+                    android:id="@+id/btn_copy"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="66px"
+                    android:layout_marginLeft="28px"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_invite_normal"
+                    android:id="@+id/btn_invite"
+                    />
+            </com.andcup.widget.AutoLinearLayout>
+        </com.andcup.widget.AutoLinearLayout>
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:background="@color/white"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/include_reward_rules"/>
+
+            <View style="@style/style_divider.h"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_ff936f"
+                android:textSize="@dimen/px28"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:paddingTop="20px"
+                android:id="@+id/tv_rule"
+                />
+
+        </com.andcup.widget.AutoLinearLayout>
+
+    </com.andcup.widget.AutoLinearLayout>
+
+</ScrollView>

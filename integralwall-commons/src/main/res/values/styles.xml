@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_tab">
+        <item name="android:layout_height">75px</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="style_divider">
+        <item name="android:background">@color/white_ededed</item>
+    </style>
+
+    <style name="style_divider.h" parent="style_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="style_divider.v" parent="style_divider">
+        <item name="android:layout_width">0.3dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="style_edit_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/width_login_btns</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/px3</item>
+        <item name="android:textColor">@color/black_292931</item>
+    </style>
+
+    <style name="style_user_login">
+        <item name="android:layout_width">240px</item>
+        <item name="android:layout_height">64px</item>
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@drawable/selector_font_white_gray</item>
+    </style>
+
+    <style name="style_user_login.register" parent="style_user_login">
+        <item name="android:background">@drawable/selector_common_red</item>
+    </style>
+
+    <style name="style_user_login.verify.code" parent="style_user_login">
+        <item name="android:background">@drawable/selector_common_red_transparent</item>
+    </style>
+
+    <style name="style_edit_password" parent="style_edit_base">
+        <item name="android:password">true</item>
+        <item name="android:hint">@string/login_hint_password</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:maxLength">16</item>
+    </style>
+
+</resources>

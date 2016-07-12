@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="@string/bind_account"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+    <View style="@style/style_divider.h"/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/style_edit_phone_number"
+            android:layout_marginLeft="@dimen/login_left"
+            android:layout_marginRight="@dimen/login_right"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:inputType="number"
+            />
+
+        <View
+            style="@style/style_divider.h"
+            android:layout_marginLeft="@dimen/login_left"
+            android:layout_marginRight="@dimen/login_right"
+            android:background="@color/white_dfdfdf" />
+
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_left"
+            android:layout_marginRight="@dimen/login_right"
+            >
+
+            <include layout="@layout/include_verify_code" />
+        </com.andcup.widget.AutoLinearLayout>
+
+        <View
+            style="@style/style_divider.h"
+            android:layout_marginLeft="@dimen/login_left"
+            android:layout_marginRight="@dimen/login_right"
+            android:background="@color/white_dfdfdf" />
+
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_right">
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/style_edit_password"
+            android:layout_toLeftOf="@+id/btn_password_eye"
+            />
+        <ImageButton
+            android:id="@+id/btn_password_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/et_password"
+            android:layout_alignBottom="@+id/et_password"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/ic_eye_password_gone" />
+    </com.andcup.widget.AutoRelativeLayout>
+    <View
+        style="@style/style_divider.h"
+        android:background="@color/white_dfdfdf"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_right"/>
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_right"
+        >
+        <EditText
+            android:id="@+id/et_confirm_password"
+            style="@style/style_edit_password"
+            android:layout_toLeftOf="@+id/btn_confirm_password_eye"
+            android:hint="@string/login_hint_password_again" />
+        <ImageButton
+            android:id="@+id/btn_confirm_password_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/et_confirm_password"
+            android:layout_alignBottom="@+id/et_confirm_password"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/ic_eye_password_gone" />
+    </com.andcup.widget.AutoRelativeLayout>
+    <View style="@style/style_divider.h"/>
+
+</com.andcup.widget.AutoLinearLayout>

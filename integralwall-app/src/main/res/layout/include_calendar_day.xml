@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64px"
+    android:background="@color/colorWhite_30p"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_0"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_1"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_2"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_3"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_4"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_5"
+        />
+
+    <TextView
+        style="@style/TextStyle.Home.Calendar.Day"
+        android:text="@string/day_6"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

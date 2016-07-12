@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/login_top"
+            android:paddingLeft="@dimen/login_left"
+            android:paddingRight="@dimen/login_right"
+            android:background="@drawable/shape_dialog_bottom"
+            >
+            <EditText
+                style="@style/style_edit_phone_number"
+                android:id="@+id/et_content"
+                android:singleLine="true"
+                android:maxLength="11"
+                android:inputType="number"
+                />
+
+            <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+
+            <include layout="@layout/include_password"/>
+
+            <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+    </com.andcup.widget.AutoLinearLayout>
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/login_forget_password"
+        android:clickable="true"
+        android:gravity="right"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/height_login_text"
+        android:layout_marginRight="@dimen/login_right"
+        android:layout_marginTop="22px"
+        android:id="@+id/btn_find_password"
+        />
+    <com.andcup.widget.AutoLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_left"
+        android:layout_below="@+id/tl_password">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            style="@style/style_user_login.me"
+            android:id="@+id/btn_login"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="false"
+            custom:pb_textProgress="@string/login_in"
+            custom:pb_colorNormal="@color/red_ff6836"
+            custom:pb_colorPressed="@color/red_e65220"
+            custom:pb_colorError="@color/red_ea"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <com.andcup.widget.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.andcup.widget.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+                    <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+                </com.andcup.widget.AutoLinearLayout>
+                <com.andcup.widget.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0002"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/login_third_left"
+                    android:layout_marginRight="@dimen/login_third_right">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="@dimen/height_login_text"
+                        android:text="第三方账号登录"
+
+                        />
+                </com.andcup.widget.AutoLinearLayout>
+                <com.andcup.widget.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+                    <View style="@style/style_divider.h" android:background="@color/white_dfdfdf"/>
+                </com.andcup.widget.AutoLinearLayout>
+            </com.andcup.widget.AutoLinearLayout>
+
+            <com.andcup.widget.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="150px"
+                android:layout_marginRight="150px"
+                android:layout_marginTop="@dimen/login_third_top"
+                android:layout_marginBottom="@dimen/login_third_bottom">
+                    <TextView
+                        android:id="@+id/tv_we_chat"
+                        style="@style/Third.Sdk.Text"
+                        android:text="@string/wechat"
+                        android:drawableTop="@drawable/selector_we_chat"
+                        />
+                    <TextView
+                        android:id="@+id/tv_twitter"
+                        style="@style/Third.Sdk.Text"
+                        android:drawableTop="@drawable/selector_twitter"
+                        android:text="@string/twitter"/>
+                    <TextView
+                        android:id="@+id/tv_taobao"
+                        style="@style/Third.Sdk.Text"
+                        android:drawableTop="@drawable/selector_taobao"
+                        android:text="@string/taobao"/>
+            </com.andcup.widget.AutoLinearLayout>
+        </com.andcup.widget.AutoLinearLayout>
+    </com.andcup.widget.AutoLinearLayout>
+</com.andcup.widget.AutoLinearLayout>

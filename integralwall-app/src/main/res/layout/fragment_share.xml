@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="66px"
+    android:paddingRight="66px"
+    android:paddingTop="90px"
+    android:paddingBottom="90px"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/Third.Sdk.Text"
+        android:drawableTop="@drawable/selector_friend_circle"
+        android:id="@+id/btn_friend_circle"
+        android:text="@string/friendly"
+        />
+
+    <TextView
+        style="@style/Third.Sdk.Text"
+        android:drawableTop="@drawable/selector_we_chat"
+        android:id="@+id/btn_wechat"
+        android:text="@string/wechat"
+        />
+
+    <TextView
+        style="@style/Third.Sdk.Text"
+        android:drawableTop="@drawable/selector_qzone"
+        android:id="@+id/btn_qzone"
+        android:text="@string/qzone"
+        />
+
+    <TextView
+        style="@style/Third.Sdk.Text"
+        android:drawableTop="@drawable/selector_twitter"
+        android:id="@+id/btn_twitter"
+        android:text="@string/twitter"
+        />
+
+</com.andcup.widget.AutoLinearLayout>

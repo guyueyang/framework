@@ -1,0 +1,126 @@
+allprojects {
+
+    repositories {
+        jcenter()
+        maven { url 'https://oss.jfrog.org/libs-snapshot' }
+        maven { url "https://jitpack.io" } // photoview.
+        maven { url 'http://nexus.sayboy.com:8081/nexus/content/groups/public/' }
+    }
+
+    configurations.all {
+        // check for updates every build
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+
+    ext {
+        minSdkVersion = 15
+        compileSdkVersion = 23
+        targetSdkVersion = 22
+        buildToolsVersion = '23.0.1'
+
+        versionCode = 7011
+        versionName = "2.1.0"
+
+        //android lib version
+        androidVersion = "2.1.2"
+        androidSupportVersion = "23.1.0"
+
+        //andcup version
+        andcupVersion = "1.0.5-SNAPSHOT"
+
+        //lib version
+        rxVersion = "1.1.0"
+        retrolambdaVersion = "3.2.4"
+        butterKnifeVersion = '7.0.1'
+        jacksonVersion = "2.4.2"
+        retrofitVersion = "2.0.0-beta4"
+        retrofitJacksonVersion = "2.0.0-beta2"
+        retrofitGsonVersion = "2.0.0-beta4"
+        gsonVersion = "2.5"
+        okHttpVersion = "3.1.2"
+        numberPickderVersion = "1.0.0"
+        circleimageviewVersion = "2.0.0"
+        glideVersion = "3.7.0"
+        autoLayoutVersion = "1.4.1"
+        superRecycleView = "1.1.1"
+        processButton = "1.0.4"
+        recycleViewHeaderVersion = "1.0.0"
+        circleimageviewVersion = "2.0.0"
+        roundedimageviewVersion = "2.2.1"
+        systemBarVersion = "1.0.3"
+        nineoldandroidsVersion = "2.4.0"
+        flycoTabLayoutVersion = "2.0.0"
+        eventbusVersion = "3.0.0"
+        downloadVersion = "0.1.16-SNAPSHOT"
+        circularProgressButtonVersion = "1.1.3"
+        imageCompressionViersion = "1.0.0"
+        nineoldandroidsVersion = "2.4.0"
+        viewPagerTransformsVersion = "1.2.32"
+        umengAnalyticsVersion = "latest.integration"
+        htmlTextViewVersion = "1.4"
+        timesSquareVersion = "1.6.5"
+        calendarlistviewVersion = "1.2.3"
+        shapeImageviewVersion = "0.9.+"
+        picassoVersion = "2.5.2"
+    }
+
+    ext.libs = [
+            rxJava                : "io.reactivex:rxjava:${rxVersion}",
+            rxAndroid             : "io.reactivex:rxandroid:${rxVersion}",
+            retrolambda           : "me.tatarka:gradle-retrolambda:${retrolambdaVersion}",
+            butterknife           : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            jacksonDatabind       : "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}",
+            retrofit              : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitJackson       : "com.squareup.retrofit2:converter-jackson:${retrofitVersion}",
+            retrofitAdapter       : "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}",
+            gsonConvert           : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            gson                  : "com.google.code.gson:gson:${gsonVersion}",
+            okHttp                : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogging         : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            numberPicker          : "com.qioq.android.numberpicker:number-picker:${numberPickderVersion}",
+            circleImageView       : "de.hdodenhof:circleimageview:${circleimageviewVersion}",
+            glide                 : "com.github.bumptech.glide:glide:${glideVersion}",
+            superRecycleView      : "com.malinskiy:superrecyclerview:${superRecycleView}",
+            processButton         : "com.github.dmytrodanylyk.android-process-button:library:${processButton}",
+            recycleViewHeader     : "com.qioq.android.recycleview-header:recycleview-header:${recycleViewHeaderVersion}",
+            circleimageview       : "de.hdodenhof:circleimageview:${circleimageviewVersion}",
+            roundedimageview      : "com.makeramen:roundedimageview:${roundedimageviewVersion}",
+            systemBar             : "com.readystatesoftware.systembartint:systembartint:${systemBarVersion}",
+            nineoldandroids       : "com.nineoldandroids:library:${nineoldandroidsVersion}",
+            flycoTabLayout        : "com.flyco.tablayout:FlycoTabLayout_Lib:${flycoTabLayoutVersion}",
+            eventbus              : "org.greenrobot:eventbus:${eventbusVersion}",
+            download              : "com.qioq.android.download:download:${downloadVersion}",
+            imageCompression      : "com.qioq.android.image.compression:compressionImage:${imageCompressionViersion}",
+            circularProgressButton: "com.github.dmytrodanylyk.circular-progress-button:library:${circularProgressButtonVersion}",
+            nineoldandroids       : "com.nineoldandroids:library:${nineoldandroidsVersion}",
+            viewPagerTransforms   : "com.ToxicBakery.viewpager.transforms:view-pager-transforms:${viewPagerTransformsVersion}",
+            umengAnalytics        : "com.umeng.analytics:analytics:${umengAnalyticsVersion}",
+            htmlTextView          : "org.sufficientlysecure:html-textview:${htmlTextViewVersion}",
+            timesSquare           : "com.squareup:android-times-square:${timesSquareVersion}@aar",
+            calendarlistview      : "com.github.traex.calendarlistview:library:${calendarlistviewVersion}",
+            shapeImageview        : "com.github.siyamed:android-shape-imageview:${shapeImageviewVersion}@aar",
+            picasso               : "com.squareup.picasso:picasso:${picassoVersion}",
+            photoView             : "com.github.chrisbanes:PhotoView:1.2.6"
+    ]
+
+    ext.android = [
+            supportAnnotations : "com.android.support:support-annotations:${androidSupportVersion}@aar",
+            supportV4          : "com.android.support:support-v4:${androidSupportVersion}@aar",
+            supportRecyclerView: "com.android.support:recyclerview-v7:${androidSupportVersion}@aar",
+            supportAppCompat   : "com.android.support:appcompat-v7:${androidSupportVersion}@aar",
+            supportDesign      : "com.android.support:design:${androidSupportVersion}@aar",
+            supportPercent     : "com.android.support:percent:${androidSupportVersion}"
+    ]
+
+    ext.andcup = [
+            framework         : "com.andcup.android.frame:andcup-frame:${andcupVersion}",
+            eventBus          : "com.andcup.android.frame.eventbus:andcup-eventbus:${andcupVersion}",
+            activeAndroid     : "com.andcup.android.database.activeandroid:andcup-database-activeandroid:${andcupVersion}",
+            butterKnife       : "com.andcup.android.frame.butterknife:butterknife:${andcupVersion}",
+            autoLayout        : "com.andcup.android.widget.autolayout:andcup-widget-autolayout:${andcupVersion}",
+            viewpagerIndicator: "com.andcup.widget.vpindicator:andcup-widget-viewpagerindicator:${andcupVersion}",
+            imageCrop         : "com.andcup.android.widget.cropper:andcup-widget-cropper:${andcupVersion}",
+            download          : "com.andcup.lib.download:andcup-lib-download:${andcupVersion}",
+            swipeback         : "com.andcup.widget.swipeback:android-widget-swipeback:${andcupVersion}"
+    ]
+}

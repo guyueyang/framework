@@ -1,0 +1,155 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="TextStyle.Home.Money" parent= "AppTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/selector_common_yellow</item>
+        <item name="android:layout_width">@dimen/with_home_money</item>
+        <item name="android:layout_height">@dimen/height_home_money</item>
+    </style>
+
+    <style name="TextStyle.Home.UserInfo" parent= "AppTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/app_common_text_size</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+
+    <style name="TextStyle.Home.Score" parent= "AppTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dp15</item>
+    </style>
+
+    <style name="TextStyle.Home.Tab" parent= "AppTextStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">16px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/gray_666666</item>
+        <item name="android:textSize">@dimen/app_common_text_size</item>
+    </style>
+
+    <style name="TextStyle.Home.Item" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_common_title_size</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.Title" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/black_4c4b4b</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.Content" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/black_b2b2b2</item>
+        <item name="android:textSize">@dimen/px24</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.First" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/app_theme_common_color</item>
+        <item name="android:paddingLeft">24px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.First.Score" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/yellow_fea556</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.Avatar" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/app_theme_common_color</item>
+        <item name="android:paddingLeft">24px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.Wait" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/black_4d4d4d</item>
+        <item name="android:paddingLeft">24px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="TextStyle.Home.Item.Wait.Score" parent="TextStyle.Home.Item">
+        <item name="android:textColor">@color/red_ff5736</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">44px</item>
+    </style>
+
+    <style name="TextStyle.Home.Calendar.Title" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gold_652908</item>
+        <item name="android:textSize">60px</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="TextStyle.Home.Calendar.Month" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:numColumns">7</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:enabled">false</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:divider">@color/app_divider</item>
+        <item name="android:background">@drawable/shape_calendar_month</item>
+    </style>
+
+    <style name="TextStyle.Home.Calendar.Day" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/px28</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextStyle.Home.Cashing.Action" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90px</item>
+        <item name="android:layout_marginTop">48px</item>
+        <item name="android:layout_marginLeft">40px</item>
+        <item name="android:layout_marginRight">40px</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="TextStyle.Home.Cashing.Info" parent="AppTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">18px</item>
+        <item name="android:paddingLeft">60px</item>
+        <item name="android:paddingRight">60px</item>
+        <item name="android:textColor">@color/black_454545</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:lineSpacingExtra">30px</item>
+    </style>
+
+    <style name="QbStyle.Content" parent="AppTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:textSize">@dimen/px28</item>
+    </style>
+
+</resources>

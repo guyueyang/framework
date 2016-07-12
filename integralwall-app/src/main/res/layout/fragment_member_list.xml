@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andcup.widget.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.andcup.widget.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/FamilyStyle.Member.Top"
+            android:drawableLeft="@drawable/ic_family_member"
+            android:text="@string/family_member"
+            android:id="@+id/tv_family_number"
+            android:paddingLeft="50px"
+            />
+
+        <View style="@style/style_divider.v"/>
+
+        <TextView
+            style="@style/FamilyStyle.Member.Top"
+            android:drawableLeft="@drawable/ic_family_total_in"
+            android:text="@string/family_total_in"
+            android:id="@+id/tv_family_score"
+            android:paddingLeft="50px"
+            />
+
+    </com.andcup.widget.AutoLinearLayout>
+
+    <com.andcup.widget.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px30"
+        android:paddingRight="@dimen/px30"
+        android:paddingTop="@dimen/px20"
+        android:paddingBottom="@dimen/px20"
+        android:gravity="center_vertical"
+        android:background="@color/app_content_color">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_toLeftOf="@+id/btn_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:layout_marginRight="@dimen/px20"
+            style="@style/InputStyle"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px70"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_search"
+            android:background="@drawable/selector_common_yellow"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            />
+    </com.andcup.widget.AutoRelativeLayout>
+
+    <com.andcup.widget.AutoLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Item.Title"
+            android:text="@string/nickname"
+            />
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Item.Title"
+            android:text="@string/join_days"
+            />
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Item.Title"
+            android:text="@string/complete_tasks"
+            />
+
+        <TextView
+            style="@style/FamilyStyle.Member.Level.Item.Title"
+            android:text="@string/offer_score"
+            />
+    </com.andcup.widget.AutoLinearLayout>
+
+    <View style="@style/style_divider.h"/>
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/srv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_empty="@layout/list_item_empty"
+        app:layout_moreProgress="@layout/list_load_more"
+        app:layout_progress="@layout/list_loading"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        />
+
+</com.andcup.widget.AutoLinearLayout>
